@@ -19,7 +19,7 @@ jQuery(document).ready(function($){
 
 	function initHeadline() {
 		//insert <i> element for each letter of a changing word
-		singleLetters($('.cd-headline.letters').find('b'));
+		singleLetters($('.cd-headline.letters').find('p'));
 		//initialise headline animation
 		animateHeadline($('.cd-headline'));
 	}
@@ -52,7 +52,7 @@ jQuery(document).ready(function($){
 				spanWrapper.css('width', newWidth);
 			} else if (!headline.hasClass('type') ) {
 				//assign to .cd-words-wrapper the width of its longest word
-				var words = headline.find('.cd-words-wrapper b'),
+				var words = headline.find('.cd-words-wrapper p'),
 					width = 0;
 				words.each(function(){
 					var wordWidth = $(this).width();

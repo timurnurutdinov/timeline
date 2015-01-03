@@ -27,12 +27,16 @@ body {
 		size: 1.6rem;
 		family: $primary-font; // variables inside partials > _variables.scss // TODO
 	}
-	color: $color-1;  // TODO
-	background-color: $color-3;  // TODO
+	color: $color-white;  // TODO
+	background-color: $color-dark;  // TODO
 }
 
 a {
 	text-decoration: none;
+}
+
+i {
+	font-style: normal;
 }
 
 //.cd-title {
@@ -96,13 +100,16 @@ a {
 	display: inline-block;
 	position: relative;
 	text-align: left;
-
-	b {
+	
+	p {
 		display: inline-block;
 		position: absolute;
 		white-space: nowrap;
 		left: 0;
 		top: 0;
+		///////
+		text-transform: uppercase;
+		
 
 		&.is-visible {
 			position: relative;
@@ -137,7 +144,7 @@ xrotate-2
 		@include backface-visibility(hidden);
 	}
 
-	b {
+	p {
 		opacity: 0;
 	}
 
@@ -161,6 +168,13 @@ xrotate-2
 
 	em {
 		@include transform(translateZ(20px));
+	}
+	
+	span {
+		text-transform: uppercase;
+		font-size: 5rem;
+		letter-spacing: 2px;
+		line-height: 6rem;
 	}
 }
 

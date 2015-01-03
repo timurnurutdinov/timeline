@@ -18,11 +18,14 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Josefin Sans", sans-serif;
-  color: #aebcb9;
-  background-color: #0d0d0d; }
+  color: #fff;
+  background-color: #333; }
 
 a {
   text-decoration: none; }
+
+i {
+  font-style: normal; }
 
 .cd-intro {
   width: 90%;
@@ -53,13 +56,14 @@ a {
   display: inline-block;
   position: relative;
   text-align: left; }
-  .cd-words-wrapper b {
+  .cd-words-wrapper p {
     display: inline-block;
     position: absolute;
     white-space: nowrap;
     left: 0;
-    top: 0; }
-    .cd-words-wrapper b.is-visible {
+    top: 0;
+    text-transform: uppercase; }
+    .cd-words-wrapper p.is-visible {
       position: relative; }
   .no-js .cd-words-wrapper b {
     opacity: 0; }
@@ -79,7 +83,7 @@ xrotate-2
   display: inline-block;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden; }
-.cd-headline.rotate-2 b {
+.cd-headline.rotate-2 p {
   opacity: 0; }
 .cd-headline.rotate-2 i {
   -webkit-transform-style: preserve-3d;
@@ -109,6 +113,11 @@ xrotate-2
   -ms-transform: translateZ(20px);
   -o-transform: translateZ(20px);
   transform: translateZ(20px); }
+.cd-headline.rotate-2 span {
+  text-transform: uppercase;
+  font-size: 5rem;
+  letter-spacing: 2px;
+  line-height: 6rem; }
 
 .no-csstransitions .cd-headline.rotate-2 i {
   -webkit-transform: rotateX(0deg);
