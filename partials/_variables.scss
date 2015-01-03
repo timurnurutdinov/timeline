@@ -7,4 +7,15 @@ $color-white: #fff; // Cod Gray
 // fonts 
 
 $primary-font: 'Josefin Sans', sans-serif;
-$secondary-font: 'Rajdhani', sans-serif;;
+$secondary-font: 'Rajdhani', sans-serif;
+
+h4 {
+	/* TIMUR NURUTDINOV: */
+	font-family: $secondary-font;
+	font-size: 1.8rem;
+	color: $color-white;
+	letter-spacing: 1rem;
+	line-height: 2rem;
+	text-transform: uppercase;
+	font-weight: 300;
+}
