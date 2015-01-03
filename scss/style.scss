@@ -72,7 +72,7 @@ a {
 	
 	h4 {
 		position: relative;
-		top: -5rem;
+		top: -4rem;
 	}
 
 	@include MQ(M) {
@@ -190,14 +190,14 @@ xrotate-2
 	
 	span {
 		text-transform: uppercase;
-		font-size: 3rem;
+		font-size: 2rem;
 		letter-spacing: 2px;
 		line-height: 1.2;
 	}
 	
 	@include MQ(M) {
 		span {
-			font-size: 4rem;
+			font-size: 3rem;
 		}
 		
 	}
@@ -210,6 +210,10 @@ xrotate-2
 	
 	
 }
+
+
+
+///////// ANIMATION BLOCK
 
 .no-csstransitions .cd-headline.rotate-2 i {
 	@include transform(rotateX(0deg));

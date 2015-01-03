@@ -1,3 +1,5 @@
+@import '../partials/layout';
+
 // colors
 
 $color-dark: #333; // Tower Gray
@@ -12,10 +14,20 @@ $secondary-font: 'Rajdhani', sans-serif;
 h4 {
 	/* TIMUR NURUTDINOV: */
 	font-family: $secondary-font;
-	font-size: 1.8rem;
+	font-size: 1.4rem;
 	color: $color-white;
-	letter-spacing: 1rem;
-	line-height: 2rem;
+	letter-spacing: 0.6rem;
+	line-height: 1.2em;
 	text-transform: uppercase;
 	font-weight: 300;
+	
+	@include MQ(M) {
+		line-height: 1.6rem;
+		font-size: 1.6rem;
+	}
+	
+	@include MQ(L) {
+		line-height: 2rem;
+		font-size: 1.8rem;
+	}
 }
