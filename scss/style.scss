@@ -25,15 +25,16 @@ html {
 body {
 	font: {
 		size: 1.6rem;
-		family: $primary-font; // variables inside partials > _variables.scss // TODO
+		family: $primary-font;
 	}
-	color: $color-1;  // TODO
-	background-color: $color-3;  // TODO
+	color: $color-white;
+	background-color: $color-dark;
 }
 
 a {
 	text-decoration: none;
 }
+
 
 //.cd-title {
 //	position: relative;
@@ -63,46 +64,67 @@ a {
 .cd-intro {
 	width: 90%;
 	max-width: $M;
-	text-align: center;
+//	text-align: center;
 }
 
 .cd-intro {
 	margin: 4em auto;
+	
+	h4 {
+		position: relative;
+		top: -5rem;
+	}
 
 	@include MQ(M) {
 		margin: 5em auto;
+		
+		h4 {
+			top: -7rem;
+		}
 	}
 
 	@include MQ(L) {
-		margin: 6em auto;
+		margin: 16rem auto;
+		
+		h4 {
+			top: -9rem;
+		}
 	}
+	
+	
 }
 
 .cd-headline {
 	font-size: 3rem;
 	line-height: 1.2;
+	font-weight: 300;
 
 	@include MQ(M) {
 		font-size: 4.4rem;
-		font-weight: 300;
+		
 	}
 
 	@include MQ(L) {
 		font-size: 6rem;
 	}
+	
+	
 }
 
 .cd-words-wrapper {
 	display: inline-block;
 	position: relative;
 	text-align: left;
-
-	b {
+	
+	p {
 		display: inline-block;
 		position: absolute;
-		white-space: nowrap;
+		white-space: pre;
 		left: 0;
 		top: 0;
+		///////
+		text-transform: uppercase;
+		
 
 		&.is-visible {
 			position: relative;
@@ -132,16 +154,16 @@ xrotate-2
 		@include perspective(300px);
 	}
 
-	i, em {
+	i, div, em {
 		display: inline-block;
 		@include backface-visibility(hidden);
 	}
 
-	b {
+	p {
 		opacity: 0;
 	}
 
-	i {
+	i, div {
 		@include transform-style(preserve-3d);
 		@include transform(translateZ(-20px) rotateX(90deg));
 		opacity: 0;
@@ -161,7 +183,32 @@ xrotate-2
 
 	em {
 		@include transform(translateZ(20px));
+		font-style: normal;
 	}
+	
+	
+	
+	span {
+		text-transform: uppercase;
+		font-size: 3rem;
+		letter-spacing: 2px;
+		line-height: 1.2;
+	}
+	
+	@include MQ(M) {
+		span {
+			font-size: 4rem;
+		}
+		
+	}
+
+	@include MQ(L) {
+		span {
+			font-size: 5rem;
+		}
+	}
+	
+	
 }
 
 .no-csstransitions .cd-headline.rotate-2 i {
