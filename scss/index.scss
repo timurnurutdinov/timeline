@@ -1,0 +1,15 @@
+@import '../partials/reset';
+
+@import 'bourbon';
+
+
+$font-heading: Helvetica, sans-serif;
+$color-tint: #000;
+
+body {
+  font: 100% $font-heading;
+}
+
+section {
+  @include linear-gradient(to top, red, orange);
+}
