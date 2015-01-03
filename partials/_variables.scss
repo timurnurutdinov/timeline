@@ -1,9 +1,21 @@
 // colors
 
-$color-1: #aebcb9; // Tower Gray
-$color-2: #0096a7; // Bondi Blue
-$color-3: #0d0d0d; // Cod Gray
+$color-dark: #333; // Tower Gray
+$color-grey: #444; // Bondi Blue
+$color-white: #fff; // Cod Gray
 
 // fonts 
 
-$primary-font: 'Source Sans Pro', sans-serif;
+$primary-font: 'Josefin Sans', sans-serif;
+$secondary-font: 'Rajdhani', sans-serif;
+
+h4 {
+	/* TIMUR NURUTDINOV: */
+	font-family: $secondary-font;
+	font-size: 1.8rem;
+	color: $color-white;
+	letter-spacing: 1rem;
+	line-height: 2rem;
+	text-transform: uppercase;
+	font-weight: 300;
+}
