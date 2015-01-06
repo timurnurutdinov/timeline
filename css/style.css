@@ -1,21 +1,84 @@
-h4 {
-  /* TIMUR NURUTDINOV: */
-  font-family: "Rajdhani", sans-serif;
-  font-size: 1.4rem;
+html * {
+  -moz-osx-font-smoothing: grayscale; }
+
+h1 {
+  font-family: "Josefin Sans", sans-serif;
   color: #fff;
-  letter-spacing: 0.6rem;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  font-weight: 300; }
+  @media only screen and (min-width: 768px) {
+    h1 {
+      font-size: 3.6rem; } }
+  @media only screen and (min-width: 1170px) {
+    h1 {
+      font-size: 5rem; } }
+
+h2 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 1.2; }
+
+h3 {
+  /* More about RDC2014: */
+  font-family: "Rajdhani", sans-serif;
+  font-size: 2rem;
+  color: #CCCCCC;
+  line-height: 1.2; }
+
+h4 {
+  font-family: "Rajdhani", sans-serif;
+  color: #fff;
+  font-size: 1.4rem;
   line-height: 1.2em;
-  text-transform: uppercase;
   font-weight: 300; }
   @media only screen and (min-width: 768px) {
     h4 {
       line-height: 1.6rem;
-      font-size: 1.6rem; } }
+      font-size: 1.6rem;
+      font-weight: 300; } }
   @media only screen and (min-width: 1170px) {
     h4 {
       line-height: 2rem;
       font-size: 1.8rem; } }
 
+h5 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.4rem;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  font-weight: 300; }
+
+p {
+  /* It was a great exper: */
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem;
+  color: #fff;
+  letter-spacing: 1px;
+  line-height: 24px;
+  font-weight: 300; }
+  @media only screen and (min-width: 768px) {
+    p {
+      font-size: 2.2rem;
+      line-height: 1.4; } }
+  @media only screen and (min-width: 1170px) {
+    p {
+      font-size: 2.4rem;
+      line-height: 1.5; } }
+
+/*
+ * Retina Backgrounds for Compass
+ * by:              Gaya Kessler
+ * last update:     03/11/14
+ *
+ * Usage:
+ * 1. create background image for pixel ratio 1 screens and put it somewhere in your images folder.
+ * 2. create background image for pixel ratio 2 screens and put it somewhere in your images folder.
+ * 3. include the background-image property in your Sass/Scss using: '@include background-retina(<ratio-1-imagefile>, <ratio-2-imagefile>)'
+ */
 /* -------------------------------- 
 
 Primary style
@@ -25,10 +88,6 @@ Primary style
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
-
-html * {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
 
 html {
   font-size: 62.5%; }
@@ -44,34 +103,27 @@ a {
 
 .cd-intro {
   width: 90%;
-  max-width: 768px; }
+  max-width: 980px; }
 
 .cd-intro {
   margin: 4em auto; }
   .cd-intro h4 {
+    text-transform: uppercase;
+    letter-spacing: 0.6rem;
     position: relative;
-    top: -4rem; }
+    padding-bottom: 80px; }
+  .cd-intro h5:last-child {
+    padding-top: 5px;
+    color: #CCCCCC;
+    white-space: nowrap; }
+    .cd-intro h5:last-child a {
+      color: #F98B76; }
   @media only screen and (min-width: 768px) {
     .cd-intro {
-      margin: 5em auto; }
-      .cd-intro h4 {
-        top: -7rem; } }
+      margin: 8em auto; } }
   @media only screen and (min-width: 1170px) {
     .cd-intro {
-      margin: 16rem auto; }
-      .cd-intro h4 {
-        top: -9rem; } }
-
-.cd-headline {
-  font-size: 3rem;
-  line-height: 1.2;
-  font-weight: 300; }
-  @media only screen and (min-width: 768px) {
-    .cd-headline {
-      font-size: 4.4rem; } }
-  @media only screen and (min-width: 1170px) {
-    .cd-headline {
-      font-size: 6rem; } }
+      margin: 16rem auto; } }
 
 .cd-words-wrapper {
   display: inline-block;
@@ -83,13 +135,244 @@ a {
     white-space: pre;
     left: 0;
     top: 0;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-family: "Josefin Sans", sans-serif;
+    color: #fff;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    font-weight: 300; }
+    @media only screen and (min-width: 768px) {
+      .cd-words-wrapper p {
+        font-size: 3rem;
+        font-weight: 300; } }
+    @media only screen and (min-width: 1170px) {
+      .cd-words-wrapper p {
+        font-size: 5rem; } }
     .cd-words-wrapper p.is-visible {
       position: relative; }
   .no-js .cd-words-wrapper b {
     opacity: 0; }
     .no-js .cd-words-wrapper b.is-visible {
       opacity: 1; }
+
+.timeline-event {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #248EEC; }
+  @media only screen and (min-width: 1170px) {
+    .timeline-event {
+      height: 600px;
+      background-image: url(img/event-rdc/medium.png);
+      background-image: url(img/event-rdc/medium.png);
+      background-repeat: no-repeat;
+      background-position: 100% 50%; } }
+  @media only screen and (min-width: 1920px) {
+    .timeline-event {
+      background-position: 70% 50%; } }
+  .timeline-event .section-wrapper {
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+    padding-top: 30px; }
+    @media only screen and (min-width: 1170px) {
+      .timeline-event .section-wrapper {
+        padding-top: 100px; } }
+    .timeline-event .section-wrapper h2 span {
+      color: #CCCCCC; }
+    .timeline-event .section-wrapper .headline-container {
+      height: 60px;
+      width: 288px;
+      background-color: #fff;
+      box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.24);
+      margin-top: 8px;
+      padding-top: 18px; }
+      @media only screen and (min-width: 768px) {
+        .timeline-event .section-wrapper .headline-container {
+          box-shadow: 0px 14px 14px 0px rgba(0, 0, 0, 0.3);
+          width: 458px;
+          height: 80px;
+          padding-top: 22px; } }
+      @media only screen and (min-width: 1170px) {
+        .timeline-event .section-wrapper .headline-container {
+          box-shadow: 0px 18px 18px 0px rgba(0, 0, 0, 0.36);
+          width: 578px;
+          height: 100px;
+          padding-top: 24px; } }
+      .timeline-event .section-wrapper .headline-container h1 {
+        color: #248EEC;
+        margin-left: 20px; }
+    .timeline-event .section-wrapper p {
+      margin-top: 30px;
+      margin-bottom: 14px; }
+      @media only screen and (min-width: 768px) {
+        .timeline-event .section-wrapper p {
+          max-width: 680px;
+          margin-bottom: 24px; } }
+      @media only screen and (min-width: 1170px) {
+        .timeline-event .section-wrapper p {
+          width: 360px;
+          margin-top: 40px;
+          margin-bottom: 34px; } }
+    .timeline-event .section-wrapper h3 {
+      padding-bottom: 10px; }
+      .timeline-event .section-wrapper h3 a {
+        color: #CCCCCC; }
+      .timeline-event .section-wrapper h3 a:visited {
+        color: #CCCCCC; }
+      .timeline-event .section-wrapper h3 a:hover {
+        color: #fff;
+        -webkit-transition: all 1200ms ease-out;
+        -moz-transition: all 1200ms ease-out;
+        transition: all 1200ms ease-out; }
+      .timeline-event .section-wrapper h3 a:active {
+        color: #CCCCCC; }
+  .timeline-event img {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 0; }
+    @media only screen and (min-width: 768px) {
+      .timeline-event img {
+        max-width: 780px; } }
+    @media only screen and (min-width: 1170px) {
+      .timeline-event img {
+        visibility: hidden; } }
+
+#event-guidelines {
+  background-color: #fff; }
+  @media only screen and (min-width: 1170px) {
+    #event-guidelines {
+      background-image: url(img/event-guidelines/medium.png);
+      background-image: url(img/event-guidelines/medium.png); } }
+  #event-guidelines h2 {
+    color: #444; }
+    #event-guidelines h2 span {
+      color: #CCCCCC; }
+  #event-guidelines .headline-container {
+    background-color: #50E3C2;
+    width: 282px; }
+    @media only screen and (min-width: 768px) {
+      #event-guidelines .headline-container {
+        width: 436px; } }
+    @media only screen and (min-width: 1170px) {
+      #event-guidelines .headline-container {
+        width: 570px; } }
+    #event-guidelines .headline-container h1 {
+      color: #fff; }
+  #event-guidelines p {
+    color: #000; }
+    @media only screen and (min-width: 1170px) {
+      #event-guidelines p {
+        width: 360px; } }
+  #event-guidelines a {
+    color: #50E3C2; }
+  #event-guidelines a:hover {
+    color: #F98B76; }
+
+#event-tracks {
+  background-color: #fff;
+  /* Rectangle 1: */
+  background-image: linear-gradient(-153deg, #416C7B 0%, #5A3A46 95%);
+  background-image: -webkit-linear-gradient(-153deg, #416C7B 0%, #5A3A46 95%);
+  background-color: #416C7B;
+  background-image: -webkit-linear-gradient(-117deg, #416C7B 0%, #5A3A46 95%);
+  background-image: linear-gradient(-153deg,#416C7B 0%, #5A3A46 95%); }
+  #event-tracks h2 {
+    color: #fff; }
+    #event-tracks h2 span {
+      color: #CCCCCC; }
+  @media only screen and (min-width: 1170px) {
+    #event-tracks {
+      height: 600px;
+      background-image: linear-gradient(-153deg, #416C7B 0%, #5A3A46 95%);
+      background-image: -webkit-linear-gradient(-153deg, #416C7B 0%, #5A3A46 95%);
+      background-color: #416C7B;
+      background-image: -webkit-linear-gradient(-117deg, #416C7B 0%, #5A3A46 95%);
+      background-image: linear-gradient(-153deg,#416C7B 0%, #5A3A46 95%);
+      background-image: url(img/event-tracks/medium.png);
+      background-image: url(img/event-tracks/medium.png); } }
+  #event-tracks .headline-container {
+    background-color: #F98B76;
+    width: 282px; }
+    @media only screen and (min-width: 768px) {
+      #event-tracks .headline-container {
+        width: 436px; } }
+    @media only screen and (min-width: 1170px) {
+      #event-tracks .headline-container {
+        width: 570px; } }
+    #event-tracks .headline-container h1 {
+      color: #fff; }
+  #event-tracks p {
+    color: #fff; }
+  #event-tracks a {
+    color: #F98B76; }
+  #event-tracks a:hover {
+    color: #50E3C2; }
+
+#event-managing {
+  background-color: #fff;
+  /* Rectangle 1: */ }
+  #event-managing h2 {
+    color: #000; }
+    #event-managing h2 span {
+      color: #CCCCCC; }
+  @media only screen and (min-width: 1170px) {
+    #event-managing {
+      background-image: url(img/event-managing/medium.png);
+      background-image: url(img/event-managing/medium.png); } }
+  #event-managing .headline-container {
+    background-color: #B375BD;
+    width: 282px; }
+    @media only screen and (min-width: 768px) {
+      #event-managing .headline-container {
+        width: 436px; } }
+    @media only screen and (min-width: 1170px) {
+      #event-managing .headline-container {
+        width: 570px; } }
+    #event-managing .headline-container h1 {
+      color: #fff; }
+  #event-managing p {
+    color: #000; }
+    @media only screen and (min-width: 1170px) {
+      #event-managing p {
+        width: 320px; } }
+  #event-managing a {
+    color: #B375BD; }
+  #event-managing a:hover {
+    color: #248EEC; }
+
+#event-collection {
+  background-color: #D3D3D3; }
+  #event-collection h2 {
+    color: #000; }
+    #event-collection h2 span {
+      color: #444; }
+  @media only screen and (min-width: 1170px) {
+    #event-collection {
+      background-image: url(img/event-collection/medium.png);
+      background-image: url(img/event-collection/medium.png); } }
+  #event-collection .headline-container {
+    background-color: #fff;
+    width: 284px; }
+    @media only screen and (min-width: 768px) {
+      #event-collection .headline-container {
+        width: 474px; } }
+    @media only screen and (min-width: 1170px) {
+      #event-collection .headline-container {
+        width: 630px; } }
+    #event-collection .headline-container h1 {
+      color: #000;
+      margin-left: 10px; }
+      @media only screen and (min-width: 768px) {
+        #event-collection .headline-container h1 {
+          margin-left: 20px; } }
+  #event-collection p {
+    color: #000; }
+  #event-collection a {
+    color: #248EEC; }
+  #event-collection a:hover {
+    color: #B375BD; }
 
 /* -------------------------------- 
 
@@ -136,16 +419,7 @@ xrotate-2
   transform: translateZ(20px);
   font-style: normal; }
 .cd-headline.rotate-2 span {
-  text-transform: uppercase;
-  font-size: 2rem;
-  letter-spacing: 2px;
-  line-height: 1.2; }
-@media only screen and (min-width: 768px) {
-  .cd-headline.rotate-2 span {
-    font-size: 3rem; } }
-@media only screen and (min-width: 1170px) {
-  .cd-headline.rotate-2 span {
-    font-size: 5rem; } }
+  text-transform: uppercase; }
 
 .no-csstransitions .cd-headline.rotate-2 i {
   -webkit-transform: rotateX(0deg);
