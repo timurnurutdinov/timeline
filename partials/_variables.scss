@@ -2,28 +2,94 @@
 
 // colors
 
+$color-black: #000;
 $color-dark: #333; // Tower Gray
 $color-grey: #444; // Bondi Blue
+$color-light-grey: #CCCCCC;
 $color-white: #fff; // Cod Gray
+
+
+$color-event-tracks: #F98B76;
+$color-event-rdc: #248EEC;
+$color-event-guidelines: #50E3C2;
+$color-event-managing: #B375BD;
 
 // fonts 
 
 $primary-font: 'Josefin Sans', sans-serif;
 $secondary-font: 'Rajdhani', sans-serif;
 
-h4 {
-	/* TIMUR NURUTDINOV: */
-	font-family: $secondary-font;
-	font-size: 1.4rem;
+
+html * {
+	//-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+h1 {
+	
+	font-family: $primary-font;
 	color: $color-white;
-	letter-spacing: 0.6rem;
+	font-size: 2rem;
+	letter-spacing: 2px;
+	line-height: 1.2;
+	font-weight: 300;
+	//font-style: normal;
+	
+	@include MQ(M) {
+		font-size: 3.6rem; // TODO ?
+	}
+
+	@include MQ(L) {
+		font-size: 5rem; // TODO ?
+	}
+}
+
+
+h2 {
+	font-family: $secondary-font;
+	font-size: 1.6rem;
+	color: $color-white;
+	line-height: 1.2;
+	
+	@include MQ(M) {
+		// TODO ?
+	}
+	
+	@include MQ(L) {
+		// TODO ?
+	}
+}
+
+
+h3 {
+	/* More about RDC2014: */
+	font-family: $secondary-font;
+	font-size: 2rem;
+	color: $color-light-grey;
+	line-height: 1.2;
+	
+	@include MQ(M) {
+		// TODO ?
+	}
+	
+	@include MQ(L) {
+		// TODO ?
+	}
+}
+
+
+h4 {
+	font-family: $secondary-font;
+	color: $color-white;
+	font-size: 1.4rem;
 	line-height: 1.2em;
-	text-transform: uppercase;
 	font-weight: 300;
 	
 	@include MQ(M) {
 		line-height: 1.6rem;
 		font-size: 1.6rem;
+		font-weight: 300;
 	}
 	
 	@include MQ(L) {
@@ -31,3 +97,42 @@ h4 {
 		font-size: 1.8rem;
 	}
 }
+
+h5 {
+	font-family: $primary-font;
+	font-size: 1.4rem;
+	color: #FFFFFF;
+	letter-spacing: 2px;
+	line-height: 1.2;
+	font-weight: 300;
+	
+	@include MQ(M) {
+		// TODO ?
+	}
+	
+	@include MQ(L) {
+		// TODO ?
+	}
+}
+
+
+p {
+	/* It was a great exper: */
+	font-family: $primary-font;
+	font-size: 2rem;
+	color: $color-white;
+	letter-spacing: 1px;
+	line-height: 24px;
+	font-weight: 300;
+	
+	@include MQ(M) {
+		font-size: 2.2rem;
+		line-height: 1.4;
+	}
+	
+	@include MQ(L) {
+		font-size: 2.4rem;
+		line-height: 1.5;
+	}
+}
+
