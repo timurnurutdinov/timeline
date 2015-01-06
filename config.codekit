@@ -1191,6 +1191,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/css\/img\/event-festival\/extra.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.01958e+06,
+		"inputAbbreviatedPath": "\/css\/img\/event-festival\/extra.png",
+		"outputAbbreviatedPath": "\/css\/img\/event-festival\/extra.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/css\/img\/event-festival\/large.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 543445,
+		"inputAbbreviatedPath": "\/css\/img\/event-festival\/large.png",
+		"outputAbbreviatedPath": "\/css\/img\/event-festival\/large.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/css\/img\/event-festival\/medium.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 269367,
+		"inputAbbreviatedPath": "\/css\/img\/event-festival\/medium.png",
+		"outputAbbreviatedPath": "\/css\/img\/event-festival\/medium.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/css\/img\/event-festival\/small.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41719,
+		"inputAbbreviatedPath": "\/css\/img\/event-festival\/small.png",
+		"outputAbbreviatedPath": "\/css\/img\/event-festival\/small.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/css\/img\/event-guidelines\/extra.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1327,7 +1371,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.57030e+06,
+		"initialSize": 1.5703e+06,
 		"inputAbbreviatedPath": "\/css\/img\/event-tracks\/extra.png",
 		"outputAbbreviatedPath": "\/css\/img\/event-tracks\/extra.png",
 		"outputPathIsOutsideProject": 0,

@@ -101,12 +101,20 @@ body {
 a {
   text-decoration: none; }
 
-.cd-intro {
-  width: 90%;
-  max-width: 980px; }
+#headline-wrapper {
+  width: 100%; }
 
 .cd-intro {
-  margin: 4em auto; }
+  width: 90%;
+  height: 500px;
+  margin: auto; }
+  @media only screen and (min-width: 768px) {
+    .cd-intro {
+      max-width: 680px; } }
+  @media only screen and (min-width: 1170px) {
+    .cd-intro {
+      max-width: 980px;
+      height: 600px; } }
   .cd-intro h4 {
     text-transform: uppercase;
     letter-spacing: 0.6rem;
@@ -118,12 +126,11 @@ a {
     white-space: nowrap; }
     .cd-intro h5:last-child a {
       color: #F98B76; }
-  @media only screen and (min-width: 768px) {
-    .cd-intro {
-      margin: 8em auto; } }
-  @media only screen and (min-width: 1170px) {
-    .cd-intro {
-      margin: 16rem auto; } }
+  .cd-intro .cd-headline {
+    padding-top: 80px; }
+    @media only screen and (min-width: 1170px) {
+      .cd-intro .cd-headline {
+        padding-top: 160px; } }
 
 .cd-words-wrapper {
   display: inline-block;
@@ -285,8 +292,6 @@ a {
   @media only screen and (min-width: 1170px) {
     #event-tracks {
       height: 600px;
-      background-image: linear-gradient(-153deg, #416C7B 0%, #5A3A46 95%);
-      background-image: -webkit-linear-gradient(-153deg, #416C7B 0%, #5A3A46 95%);
       background-color: #416C7B;
       background-image: -webkit-linear-gradient(-117deg, #416C7B 0%, #5A3A46 95%);
       background-image: linear-gradient(-153deg,#416C7B 0%, #5A3A46 95%);
@@ -372,6 +377,43 @@ a {
   #event-collection a {
     color: #248EEC; }
   #event-collection a:hover {
+    color: #B375BD; }
+
+#event-festival {
+  background-color: #F5BF52; }
+  #event-festival h2 {
+    color: #000; }
+    #event-festival h2 span {
+      color: #444; }
+  @media only screen and (min-width: 1170px) {
+    #event-festival {
+      background-image: url(img/event-festival/medium.png);
+      background-image: url(img/event-festival/medium.png); } }
+  #event-festival .headline-container {
+    background-color: #fff;
+    width: 288px; }
+    @media only screen and (min-width: 768px) {
+      #event-festival .headline-container {
+        width: 500px; } }
+    @media only screen and (min-width: 1170px) {
+      #event-festival .headline-container {
+        width: 680px; } }
+    #event-festival .headline-container h1 {
+      color: #000;
+      margin-left: 10px;
+      letter-spacing: 1px; }
+      @media only screen and (min-width: 768px) {
+        #event-festival .headline-container h1 {
+          margin-left: 20px;
+          letter-spacing: 2px; } }
+  #event-festival p {
+    color: #000; }
+    @media only screen and (min-width: 1170px) {
+      #event-festival p {
+        width: 420px; } }
+  #event-festival a {
+    color: #fff; }
+  #event-festival a:hover {
     color: #B375BD; }
 
 /* -------------------------------- 
