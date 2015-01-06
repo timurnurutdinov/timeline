@@ -30,13 +30,24 @@ a {
 	text-decoration: none;
 }
 
-.cd-intro {
-	width: 90%;
-	max-width: 980px;
+#headline-wrapper {
+	width: 100%;
 }
 
 .cd-intro {
-	margin: 4em auto;
+	width: 90%;
+	height: 500px;
+	margin: auto;
+	
+	@include MQ(M) {
+		max-width: 680px;
+	}
+
+	@include MQ(L) {
+		max-width: 980px;
+		height: 600px;
+	}
+	
 	
 	h4 {
 		text-transform: uppercase;
@@ -54,18 +65,18 @@ a {
 			color: $color-event-tracks;
 		}
 	}
-
-	@include MQ(M) {
-		margin: 8em auto;
-		
-	}
-
-	@include MQ(L) {
-		margin: 16rem auto;
-		
-	}
 	
-	
+	.cd-headline {
+		padding-top: 80px;
+		
+		@include MQ(M) {
+			//max-width: 680px; // TODO Check
+		}
+
+		@include MQ(L) {
+			padding-top: 160px;
+		}
+	}
 }
 
 
@@ -80,7 +91,6 @@ a {
 		white-space: pre;
 		left: 0;
 		top: 0;
-		///////
 		text-transform: uppercase;
 		
 		font-family: $primary-font;
@@ -216,10 +226,6 @@ a {
 				//letter-spacing: 0.4px;
 				
 				@include transition(all 1200ms ease-out);
-				//transition:all 250ms ease-out;
-//				-webkit-transition:all 250ms ease-out;
-//				-webkit-transition:all 250ms ease-out;
-//				-o-transition:all 250ms ease-out;
 			}
 
 			a:active {
@@ -232,7 +238,6 @@ a {
 	
 	img {
 		width: 100%;
-		//background-color: red;
 		background-repeat: no-repeat;
 		background-position: 50% 0;
 		
@@ -325,8 +330,6 @@ a {
 	
 	@include MQ(L) {
 		height: 600px;
-		background-image: linear-gradient(-153deg, #416C7B 0%, #5A3A46 95%);
-		background-image: -webkit-linear-gradient(-153deg, #416C7B 0%, #5A3A46 95%);
 		@include linear-gradient(-153deg, #416C7B 0%, #5A3A46 95%);
 		@include background-image(url(img/event-tracks/medium.png));
 	}
@@ -468,6 +471,68 @@ a {
 	
 	a {
 		color: $color-event-rdc;
+	}
+	
+	a:hover {
+		color: $color-event-managing;
+	}
+}
+
+
+
+
+
+
+#event-festival {
+	background-color: $color-event-festival;
+	
+	h2 {
+		color: $color-black;
+		
+		span {
+			color: $color-grey;
+		}
+	}
+	
+	@include MQ(L) {
+		//background-color: $color-white;
+		@include background-image(url(img/event-festival/medium.png));
+	}
+	
+	.headline-container {
+		background-color: $color-white;
+		width: 288px;
+		//288458578
+		
+		@include MQ(M) {
+			width: 500px;
+		}
+
+		@include MQ(L) {
+			width: 680px;
+		}
+		
+		h1 {
+			color: $color-black;
+			margin-left: 10px;
+			letter-spacing: 1px;
+			
+			@include MQ(M) {
+				margin-left: 20px;
+				letter-spacing: 2px;
+			}
+		}
+	}
+	
+	p {
+		color: $color-black;
+		@include MQ(L) {
+			width: 420px;
+		}
+	}
+	
+	a {
+		color: $color-white;
 	}
 	
 	a:hover {
