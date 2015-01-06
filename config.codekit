@@ -1147,11 +1147,240 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/img\/event-collection\/extra.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.22484e+06,
+		"inputAbbreviatedPath": "\/css\/img\/event-collection\/extra.png",
+		"outputAbbreviatedPath": "\/css\/img\/event-collection\/extra.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/css\/img\/event-collection\/large.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 776946,
+		"inputAbbreviatedPath": "\/css\/img\/event-collection\/large.png",
+		"outputAbbreviatedPath": "\/css\/img\/event-collection\/large.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/css\/img\/event-collection\/medium.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 364002,
+		"inputAbbreviatedPath": "\/css\/img\/event-collection\/medium.png",
+		"outputAbbreviatedPath": "\/css\/img\/event-collection\/medium.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/css\/img\/event-collection\/small.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59951,
+		"inputAbbreviatedPath": "\/css\/img\/event-collection\/small.png",
+		"outputAbbreviatedPath": "\/css\/img\/event-collection\/small.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/css\/img\/event-guidelines\/extra.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.23488e+06,
+		"inputAbbreviatedPath": "\/css\/img\/event-guidelines\/extra.png",
+		"outputAbbreviatedPath": "\/css\/img\/event-guidelines\/extra.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/css\/img\/event-guidelines\/large.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 401160,
+		"inputAbbreviatedPath": "\/css\/img\/event-guidelines\/large.png",
+		"outputAbbreviatedPath": "\/css\/img\/event-guidelines\/large.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/css\/img\/event-guidelines\/medium.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 403978,
+		"inputAbbreviatedPath": "\/css\/img\/event-guidelines\/medium.png",
+		"outputAbbreviatedPath": "\/css\/img\/event-guidelines\/medium.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/css\/img\/event-guidelines\/small.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83056,
+		"inputAbbreviatedPath": "\/css\/img\/event-guidelines\/small.png",
+		"outputAbbreviatedPath": "\/css\/img\/event-guidelines\/small.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/css\/img\/event-managing\/extra.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.17836e+06,
+		"inputAbbreviatedPath": "\/css\/img\/event-managing\/extra.png",
+		"outputAbbreviatedPath": "\/css\/img\/event-managing\/extra.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/css\/img\/event-managing\/large.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 699623,
+		"inputAbbreviatedPath": "\/css\/img\/event-managing\/large.png",
+		"outputAbbreviatedPath": "\/css\/img\/event-managing\/large.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/css\/img\/event-managing\/medium.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 338273,
+		"inputAbbreviatedPath": "\/css\/img\/event-managing\/medium.png",
+		"outputAbbreviatedPath": "\/css\/img\/event-managing\/medium.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/css\/img\/event-managing\/small.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70159,
+		"inputAbbreviatedPath": "\/css\/img\/event-managing\/small.png",
+		"outputAbbreviatedPath": "\/css\/img\/event-managing\/small.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/css\/img\/event-rdc\/extra.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 915257,
+		"inputAbbreviatedPath": "\/css\/img\/event-rdc\/extra.png",
+		"outputAbbreviatedPath": "\/css\/img\/event-rdc\/extra.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/css\/img\/event-rdc\/large.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 321891,
+		"inputAbbreviatedPath": "\/css\/img\/event-rdc\/large.png",
+		"outputAbbreviatedPath": "\/css\/img\/event-rdc\/large.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/css\/img\/event-rdc\/medium.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 321874,
+		"inputAbbreviatedPath": "\/css\/img\/event-rdc\/medium.png",
+		"outputAbbreviatedPath": "\/css\/img\/event-rdc\/medium.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/css\/img\/event-rdc\/small.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 81386,
+		"inputAbbreviatedPath": "\/css\/img\/event-rdc\/small.png",
+		"outputAbbreviatedPath": "\/css\/img\/event-rdc\/small.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/css\/img\/event-tracks\/extra.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.57030e+06,
+		"inputAbbreviatedPath": "\/css\/img\/event-tracks\/extra.png",
+		"outputAbbreviatedPath": "\/css\/img\/event-tracks\/extra.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/css\/img\/event-tracks\/large.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 674269,
+		"inputAbbreviatedPath": "\/css\/img\/event-tracks\/large.png",
+		"outputAbbreviatedPath": "\/css\/img\/event-tracks\/large.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/css\/img\/event-tracks\/medium.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 479932,
+		"inputAbbreviatedPath": "\/css\/img\/event-tracks\/medium.png",
+		"outputAbbreviatedPath": "\/css\/img\/event-tracks\/medium.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/css\/img\/event-tracks\/small.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 101115,
+		"inputAbbreviatedPath": "\/css\/img\/event-tracks\/small.png",
+		"outputAbbreviatedPath": "\/css\/img\/event-tracks\/small.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/css\/index.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/index.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/reset.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/reset.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1196,23 +1425,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/js\/min\/cd-animate-min.js": {
+	"\/js\/min\/untitled-min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/min\/cd-animate-min.js",
-		"outputAbbreviatedPath": "\/js\/min\/min\/cd-animate-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/min\/main-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/min\/main-min.js",
-		"outputAbbreviatedPath": "\/js\/min\/min\/main-min-min.js",
+		"inputAbbreviatedPath": "\/js\/min\/untitled-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/untitled-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -1224,6 +1442,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/modernizr.js",
 		"outputAbbreviatedPath": "\/js\/min\/modernizr-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/picturefill.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/picturefill.js",
+		"outputAbbreviatedPath": "\/js\/min\/picturefill-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -1346,7 +1575,7 @@
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
 	"displayValue": "design-timeline",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "globe_orange"
 	},
 "projectSettings": {
