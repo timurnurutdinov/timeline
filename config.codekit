@@ -1323,17 +1323,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/css\/img\/event-rdc\/extra.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 915257,
-		"inputAbbreviatedPath": "\/css\/img\/event-rdc\/extra.png",
-		"outputAbbreviatedPath": "\/css\/img\/event-rdc\/extra.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/css\/img\/event-rdc\/large.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1565,6 +1554,15 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/README.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/README.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/README.md": {
 		"enableFootnoteSupport": 0,

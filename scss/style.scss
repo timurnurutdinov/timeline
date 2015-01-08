@@ -1,7 +1,7 @@
 @import 'bourbon';
-@import '../partials/variables'; // colors, fonts etc...
-@import '../partials/mixins'; // custom mixins
-@import '../partials/layout'; // responsive grid and media queries
+@import '../partials/variables';
+@import '../partials/mixins';
+@import '../partials/layout';
 
 /* -------------------------------- 
 
@@ -35,16 +35,16 @@ a {
 }
 
 .cd-intro {
-	width: 90%;
 	height: 500px;
 	margin: auto;
+	max-width: 29rem;
 	
 	@include MQ(M) {
-		max-width: 680px;
+		max-width: 60rem;
 	}
 
 	@include MQ(L) {
-		max-width: 980px;
+		max-width: 98rem;
 		height: 600px;
 	}
 	
@@ -68,10 +68,6 @@ a {
 	
 	.cd-headline {
 		padding-top: 80px;
-		
-		@include MQ(M) {
-			//max-width: 680px; // TODO Check
-		}
 
 		@include MQ(L) {
 			padding-top: 160px;
@@ -129,416 +125,136 @@ a {
 
 
 
-
 .timeline-event {
 	width: 100%;
-	margin: 0;
-	padding: 0;
-	background-color: $color-event-rdc;
+	background-color: red;
 	
 	@include MQ(L) {
-		height: 600px;
-		@include background-image(url(img/event-rdc/medium.png));
+		height: 760px;
+		background-image: url('img/event-rdc/medium.png');
 		background-repeat: no-repeat;
-		background-position: 100% 50%;	
+		background-position: 200% 50%;
 	}
 	
-	@include MQ(XL) {
-		background-position: 70% 50%;
+	@include MQ(E1) {
+		background-position: 150% 50%;
 	}
 	
-	.section-wrapper {
-		width: 90%;
-		max-width: 980px;
+	@include MQ(E2) {
+		background-position: 100% 50%;
+	}
+	
+	@include MQ(E3) {
+		background-position: 80% 50%;
+	}
+	
+	.event-wrapper {
 		margin: auto;
-		padding-top: 30px;
+		max-width: 29rem;
 		
-		@include MQ(L) {
-			padding-top: 100px;
+		@include MQ(M) {
+			max-width: 60rem;
 		}
 		
-		h2 {
-			span {
-				color: $color-light-grey;
+		@include MQ(L) {
+			max-width: 98rem;
+		}
+		
+		h3 {
+			padding-top: 30px;
+			
+			@include MQ(L) {
+				padding-top: 15rem;
 			}
 		}
 		
 		.headline-container {
+			margin-top: 4px;
 			height: 60px;
-			width: 288px;
-			background-color: $color-white;
-			box-shadow: 0px 10px 10px 0px rgba($color-black,0.24);
-			
-			margin-top: 8px;
-			padding-top: 18px;
+			max-width: 29rem;
+			background-color: grey;
+			box-shadow: 0px 20px 20px 0px rgba(0,0,0,0.36);
 			
 			@include MQ(M) {
-				box-shadow: 0px 14px 14px 0px rgba($color-black,0.30);
-				width: 458px;
-				height: 80px;
-				padding-top: 22px;
-			}
-	
-			@include MQ(L) {
-				box-shadow: 0px 18px 18px 0px rgba($color-black,0.36);
-				width: 578px;
+				margin-top: 10px;
 				height: 100px;
-				padding-top: 24px;
+				max-width: 60rem;
+				box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.50);
 			}
 			
-			h1 {
-				color: $color-event-rdc;
+			h2 {
+				padding-top: 18px;
 				margin-left: 20px;
+				
+				@include MQ(M) {
+					padding-top: 20px;
+					
+				}
 			}
 		}
 		
 		
 		p {
-			margin-top: 30px;
-			margin-bottom: 14px;
+			padding-top: 30px;
+			max-width: 100%;
 			
 			@include MQ(M) {
-				max-width: 680px;
-				margin-bottom: 24px;
+				padding-top: 40px;
+				max-width: 54rem;
 			}
-	
+			
 			@include MQ(L) {
-				width: 360px;
-				margin-top: 40px;
-				margin-bottom: 34px;
+				padding-top: 60px;
+				max-width: 40rem;
 			}
 		}
 		
-		h3 {
-			padding-bottom: 10px;
+		
+		pre {
+			padding-top: 20px;
+			
+			@include MQ(L) {
+				padding-top: 30px;
+			}
 			
 			a {
-				color: $color-light-grey;
-			}
-			
-
-			a:visited {
-			    color: $color-light-grey;
-			}
-
-			a:hover {
-			    color: $color-white;
-				//letter-spacing: 0.4px;
+				text-transform: uppercase;
 				
-				@include transition(all 1200ms ease-out);
-			}
-
-			a:active {
-			    color: $color-light-grey;
-			}
-			
-		}
-			
-	}
+				font-family: $secondary-font;
+				font-size: 2rem;
+				line-height: 2.4rem;
+				font-weight: 300;
 	
-	img {
-		width: 100%;
-		background-repeat: no-repeat;
-		background-position: 50% 0;
-		
-		@include MQ(M) {
-			max-width: 780px;
-		}
-
-		@include MQ(L) {
-			visibility: hidden;
-		}
-
-	}
-}
-
-
-
-
-
-
-#event-guidelines {
-	background-color: $color-white;
-	
-	@include MQ(L) {
-		@include background-image(url(img/event-guidelines/medium.png));
-	}
-	
-	h2 {
-		color: $color-grey;
-		
-		span {
-			color: $color-light-grey;
-		}
-	}
-	
-	.headline-container {
-		background-color: $color-event-guidelines;
-		width: 282px;
-		//288458578
-		
-		@include MQ(M) {
-			width: 436px;
-		}
-
-		@include MQ(L) {
-			width: 570px;
-		}
-		
-		h1 {
-			color: $color-white;
-		}
-	}
-	
-	p {
-		color: $color-black;
-		@include MQ(L) {
-			width: 360px;
-		}
-	}
-	
-	a {
-		color: $color-event-guidelines;
-	}
-	
-	a:hover {
-		color: $color-event-tracks;
-	}
-}
-
-
-
-
-
-
-
-
-#event-tracks {
-	background-color: $color-white;
-	/* Rectangle 1: */
-	background-image: linear-gradient(-153deg, #416C7B 0%, #5A3A46 95%);
-	background-image: -webkit-linear-gradient(-153deg, #416C7B 0%, #5A3A46 95%);
-	@include linear-gradient(-153deg, #416C7B 0%, #5A3A46 95%);
-	
-	h2 {
-		color: $color-white;
-		
-		span {
-			color: $color-light-grey;
-		}
-	}
-	
-	@include MQ(L) {
-		height: 600px;
-		@include linear-gradient(-153deg, #416C7B 0%, #5A3A46 95%);
-		@include background-image(url(img/event-tracks/medium.png));
-	}
-	
-	.headline-container {
-		background-color: $color-event-tracks;
-		width: 282px;
-		//288458578
-		
-		@include MQ(M) {
-			width: 436px;
-		}
-
-		@include MQ(L) {
-			width: 570px;
-		}
-		
-		h1 {
-			color: $color-white;
-		}
-	}
-	
-	p {
-		color: $color-white;
-	}
-	
-	a {
-		color: $color-event-tracks;
-	}
-	
-	a:hover {
-		color: $color-event-guidelines;
-	}
-}
-
-
-
-
-
-
-
-#event-managing {
-	background-color: $color-white;
-	/* Rectangle 1: */
-	//background-image: linear-gradient(-153deg, #416C7B 0%, #5A3A46 95%);
-	
-	h2 {
-		color: $color-black;
-		
-		span {
-			color: $color-light-grey;
-		}
-	}
-	
-	@include MQ(L) {
-		//background-color: $color-white;
-		@include background-image(url(img/event-managing/medium.png));
-	}
-	
-	.headline-container {
-		background-color: $color-event-managing;
-		width: 282px;
-		//288458578
-		
-		@include MQ(M) {
-			width: 436px;
-		}
-
-		@include MQ(L) {
-			width: 570px;
-		}
-		
-		h1 {
-			color: $color-white;
-		}
-	}
-	
-	p {
-		color: $color-black;
-		@include MQ(L) {
-			width: 320px;
-		}
-	}
-	
-	a {
-		color: $color-event-managing;
-	}
-	
-	a:hover {
-		color: $color-event-rdc;
-	}
-}
-
-
-
-
-#event-collection {
-	background-color: #D3D3D3;
-	
-	h2 {
-		color: $color-black;
-		
-		span {
-			color: $color-grey;
-		}
-	}
-	
-	@include MQ(L) {
-		//background-color: $color-white;
-		@include background-image(url(img/event-collection/medium.png));
-	}
-	
-	.headline-container {
-		background-color: $color-white;
-		width: 284px;
-		//288458578
-		
-		@include MQ(M) {
-			width: 474px;
-		}
-
-		@include MQ(L) {
-			width: 630px;
-		}
-		
-		h1 {
-			color: $color-black;
-			margin-left: 10px;
-			
-			@include MQ(M) {
-				margin-left: 20px;
+				@include MQ(L) {
+					font-size: 2.4rem;
+					line-height: 3rem;
+				}
 			}
 		}
+		
 	}
-	
-	p {
-		color: $color-black;
-	}
-	
-	a {
-		color: $color-event-rdc;
-	}
-	
-	a:hover {
-		color: $color-event-managing;
+
+	.image-wrapper {
+
+		img {
+				width: 100%;
+				background-repeat: no-repeat;
+				background-position: 50% 50%;
+				margin: auto;
+		
+				@include MQ(M) {
+					max-width: 980px;
+				}
+
+				@include MQ(L) {
+					visibility: hidden;
+				}
+
+		}
 	}
 }
 
 
-
-
-
-
-#event-festival {
-	background-color: $color-event-festival;
-	
-	h2 {
-		color: $color-black;
-		
-		span {
-			color: $color-grey;
-		}
-	}
-	
-	@include MQ(L) {
-		//background-color: $color-white;
-		@include background-image(url(img/event-festival/medium.png));
-	}
-	
-	.headline-container {
-		background-color: $color-white;
-		width: 288px;
-		//288458578
-		
-		@include MQ(M) {
-			width: 500px;
-		}
-
-		@include MQ(L) {
-			width: 680px;
-		}
-		
-		h1 {
-			color: $color-black;
-			margin-left: 10px;
-			letter-spacing: 1px;
-			
-			@include MQ(M) {
-				margin-left: 20px;
-				letter-spacing: 2px;
-			}
-		}
-	}
-	
-	p {
-		color: $color-black;
-		@include MQ(L) {
-			width: 420px;
-		}
-	}
-	
-	a {
-		color: $color-white;
-	}
-	
-	a:hover {
-		color: $color-event-managing;
-	}
-}
 
 
 

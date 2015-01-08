@@ -3,82 +3,64 @@ html * {
 
 h1 {
   font-family: "Josefin Sans", sans-serif;
-  color: #fff;
   font-size: 2rem;
   letter-spacing: 2px;
   line-height: 1.2;
   font-weight: 300; }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 600px) {
     h1 {
-      font-size: 3.6rem; } }
-  @media only screen and (min-width: 1170px) {
+      font-size: 3rem; } }
+  @media only screen and (min-width: 980px) {
     h1 {
       font-size: 5rem; } }
 
 h2 {
-  font-family: "Rajdhani", sans-serif;
-  font-size: 1.6rem;
-  color: #fff;
-  line-height: 1.2; }
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem;
+  line-height: 1.2;
+  letter-spacing: 2px;
+  font-weight: 300; }
+  @media only screen and (min-width: 600px) {
+    h2 {
+      font-size: 5rem; } }
 
 h3 {
-  /* More about RDC2014: */
   font-family: "Rajdhani", sans-serif;
-  font-size: 2rem;
-  color: #CCCCCC;
-  line-height: 1.2; }
+  font-size: 1.6rem;
+  line-height: 2rem; }
+  @media only screen and (min-width: 600px) {
+    h3 {
+      font-size: 1.8rem;
+      line-height: 2rem; } }
 
 h4 {
   font-family: "Rajdhani", sans-serif;
-  color: #fff;
   font-size: 1.4rem;
-  line-height: 1.2em;
+  line-height: 1.8em;
   font-weight: 300; }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 980px) {
     h4 {
-      line-height: 1.6rem;
-      font-size: 1.6rem;
-      font-weight: 300; } }
-  @media only screen and (min-width: 1170px) {
-    h4 {
-      line-height: 2rem;
-      font-size: 1.8rem; } }
+      font-size: 1.8rem;
+      line-height: 2rem; } }
 
 h5 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.4rem;
-  color: #FFFFFF;
   letter-spacing: 2px;
-  line-height: 1.2;
+  line-height: 1.6rem;
   font-weight: 300; }
 
 p {
-  /* It was a great exper: */
   font-family: "Josefin Sans", sans-serif;
   font-size: 2rem;
-  color: #fff;
   letter-spacing: 1px;
-  line-height: 24px;
+  line-height: 2.4rem;
   font-weight: 300; }
-  @media only screen and (min-width: 768px) {
-    p {
-      font-size: 2.2rem;
-      line-height: 1.4; } }
-  @media only screen and (min-width: 1170px) {
+  @media only screen and (min-width: 600px) {
     p {
       font-size: 2.4rem;
       line-height: 1.5; } }
 
-/*
- * Retina Backgrounds for Compass
- * by:              Gaya Kessler
- * last update:     03/11/14
- *
- * Usage:
- * 1. create background image for pixel ratio 1 screens and put it somewhere in your images folder.
- * 2. create background image for pixel ratio 2 screens and put it somewhere in your images folder.
- * 3. include the background-image property in your Sass/Scss using: '@include background-retina(<ratio-1-imagefile>, <ratio-2-imagefile>)'
- */
 /* -------------------------------- 
 
 Primary style
@@ -105,15 +87,15 @@ a {
   width: 100%; }
 
 .cd-intro {
-  width: 90%;
   height: 500px;
-  margin: auto; }
-  @media only screen and (min-width: 768px) {
+  margin: auto;
+  max-width: 29rem; }
+  @media only screen and (min-width: 600px) {
     .cd-intro {
-      max-width: 680px; } }
-  @media only screen and (min-width: 1170px) {
+      max-width: 60rem; } }
+  @media only screen and (min-width: 980px) {
     .cd-intro {
-      max-width: 980px;
+      max-width: 98rem;
       height: 600px; } }
   .cd-intro h4 {
     text-transform: uppercase;
@@ -128,7 +110,7 @@ a {
       color: #F98B76; }
   .cd-intro .cd-headline {
     padding-top: 80px; }
-    @media only screen and (min-width: 1170px) {
+    @media only screen and (min-width: 980px) {
       .cd-intro .cd-headline {
         padding-top: 160px; } }
 
@@ -149,11 +131,11 @@ a {
     letter-spacing: 2px;
     line-height: 1.2;
     font-weight: 300; }
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 600px) {
       .cd-words-wrapper p {
         font-size: 3rem;
         font-weight: 300; } }
-    @media only screen and (min-width: 1170px) {
+    @media only screen and (min-width: 980px) {
       .cd-words-wrapper p {
         font-size: 5rem; } }
     .cd-words-wrapper p.is-visible {
@@ -165,256 +147,91 @@ a {
 
 .timeline-event {
   width: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: #248EEC; }
-  @media only screen and (min-width: 1170px) {
+  background-color: red; }
+  @media only screen and (min-width: 980px) {
     .timeline-event {
-      height: 600px;
-      background-image: url(img/event-rdc/medium.png);
-      background-image: url(img/event-rdc/medium.png);
+      height: 760px;
+      background-image: url("img/event-rdc/medium.png");
       background-repeat: no-repeat;
-      background-position: 100% 50%; } }
-  @media only screen and (min-width: 1920px) {
+      background-position: 200% 50%; } }
+  @media only screen and (min-width: 1080px) {
     .timeline-event {
-      background-position: 70% 50%; } }
-  .timeline-event .section-wrapper {
-    width: 90%;
-    max-width: 980px;
+      background-position: 150% 50%; } }
+  @media only screen and (min-width: 1280px) {
+    .timeline-event {
+      background-position: 100% 50%; } }
+  @media only screen and (min-width: 1650px) {
+    .timeline-event {
+      background-position: 80% 50%; } }
+  .timeline-event .event-wrapper {
     margin: auto;
-    padding-top: 30px; }
-    @media only screen and (min-width: 1170px) {
-      .timeline-event .section-wrapper {
-        padding-top: 100px; } }
-    .timeline-event .section-wrapper h2 span {
-      color: #CCCCCC; }
-    .timeline-event .section-wrapper .headline-container {
+    max-width: 29rem; }
+    @media only screen and (min-width: 600px) {
+      .timeline-event .event-wrapper {
+        max-width: 60rem; } }
+    @media only screen and (min-width: 980px) {
+      .timeline-event .event-wrapper {
+        max-width: 98rem; } }
+    .timeline-event .event-wrapper h3 {
+      padding-top: 30px; }
+      @media only screen and (min-width: 980px) {
+        .timeline-event .event-wrapper h3 {
+          padding-top: 15rem; } }
+    .timeline-event .event-wrapper .headline-container {
+      margin-top: 4px;
       height: 60px;
-      width: 288px;
-      background-color: #fff;
-      box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.24);
-      margin-top: 8px;
-      padding-top: 18px; }
-      @media only screen and (min-width: 768px) {
-        .timeline-event .section-wrapper .headline-container {
-          box-shadow: 0px 14px 14px 0px rgba(0, 0, 0, 0.3);
-          width: 458px;
-          height: 80px;
-          padding-top: 22px; } }
-      @media only screen and (min-width: 1170px) {
-        .timeline-event .section-wrapper .headline-container {
-          box-shadow: 0px 18px 18px 0px rgba(0, 0, 0, 0.36);
-          width: 578px;
+      max-width: 29rem;
+      background-color: grey;
+      box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.36); }
+      @media only screen and (min-width: 600px) {
+        .timeline-event .event-wrapper .headline-container {
+          margin-top: 10px;
           height: 100px;
-          padding-top: 24px; } }
-      .timeline-event .section-wrapper .headline-container h1 {
-        color: #248EEC;
+          max-width: 60rem;
+          box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.5); } }
+      .timeline-event .event-wrapper .headline-container h2 {
+        padding-top: 18px;
         margin-left: 20px; }
-    .timeline-event .section-wrapper p {
-      margin-top: 30px;
-      margin-bottom: 14px; }
-      @media only screen and (min-width: 768px) {
-        .timeline-event .section-wrapper p {
-          max-width: 680px;
-          margin-bottom: 24px; } }
-      @media only screen and (min-width: 1170px) {
-        .timeline-event .section-wrapper p {
-          width: 360px;
-          margin-top: 40px;
-          margin-bottom: 34px; } }
-    .timeline-event .section-wrapper h3 {
-      padding-bottom: 10px; }
-      .timeline-event .section-wrapper h3 a {
-        color: #CCCCCC; }
-      .timeline-event .section-wrapper h3 a:visited {
-        color: #CCCCCC; }
-      .timeline-event .section-wrapper h3 a:hover {
-        color: #fff;
-        -webkit-transition: all 1200ms ease-out;
-        -moz-transition: all 1200ms ease-out;
-        transition: all 1200ms ease-out; }
-      .timeline-event .section-wrapper h3 a:active {
-        color: #CCCCCC; }
-  .timeline-event img {
+        @media only screen and (min-width: 600px) {
+          .timeline-event .event-wrapper .headline-container h2 {
+            padding-top: 20px; } }
+    .timeline-event .event-wrapper p {
+      padding-top: 30px;
+      max-width: 100%; }
+      @media only screen and (min-width: 600px) {
+        .timeline-event .event-wrapper p {
+          padding-top: 40px;
+          max-width: 54rem; } }
+      @media only screen and (min-width: 980px) {
+        .timeline-event .event-wrapper p {
+          padding-top: 60px;
+          max-width: 40rem; } }
+    .timeline-event .event-wrapper pre {
+      padding-top: 20px; }
+      @media only screen and (min-width: 980px) {
+        .timeline-event .event-wrapper pre {
+          padding-top: 30px; } }
+      .timeline-event .event-wrapper pre a {
+        text-transform: uppercase;
+        font-family: "Rajdhani", sans-serif;
+        font-size: 2rem;
+        line-height: 2.4rem;
+        font-weight: 300; }
+        @media only screen and (min-width: 980px) {
+          .timeline-event .event-wrapper pre a {
+            font-size: 2.4rem;
+            line-height: 3rem; } }
+  .timeline-event .image-wrapper img {
     width: 100%;
     background-repeat: no-repeat;
-    background-position: 50% 0; }
-    @media only screen and (min-width: 768px) {
-      .timeline-event img {
-        max-width: 780px; } }
-    @media only screen and (min-width: 1170px) {
-      .timeline-event img {
+    background-position: 50% 50%;
+    margin: auto; }
+    @media only screen and (min-width: 600px) {
+      .timeline-event .image-wrapper img {
+        max-width: 980px; } }
+    @media only screen and (min-width: 980px) {
+      .timeline-event .image-wrapper img {
         visibility: hidden; } }
-
-#event-guidelines {
-  background-color: #fff; }
-  @media only screen and (min-width: 1170px) {
-    #event-guidelines {
-      background-image: url(img/event-guidelines/medium.png);
-      background-image: url(img/event-guidelines/medium.png); } }
-  #event-guidelines h2 {
-    color: #444; }
-    #event-guidelines h2 span {
-      color: #CCCCCC; }
-  #event-guidelines .headline-container {
-    background-color: #50E3C2;
-    width: 282px; }
-    @media only screen and (min-width: 768px) {
-      #event-guidelines .headline-container {
-        width: 436px; } }
-    @media only screen and (min-width: 1170px) {
-      #event-guidelines .headline-container {
-        width: 570px; } }
-    #event-guidelines .headline-container h1 {
-      color: #fff; }
-  #event-guidelines p {
-    color: #000; }
-    @media only screen and (min-width: 1170px) {
-      #event-guidelines p {
-        width: 360px; } }
-  #event-guidelines a {
-    color: #50E3C2; }
-  #event-guidelines a:hover {
-    color: #F98B76; }
-
-#event-tracks {
-  background-color: #fff;
-  /* Rectangle 1: */
-  background-image: linear-gradient(-153deg, #416C7B 0%, #5A3A46 95%);
-  background-image: -webkit-linear-gradient(-153deg, #416C7B 0%, #5A3A46 95%);
-  background-color: #416C7B;
-  background-image: -webkit-linear-gradient(-117deg, #416C7B 0%, #5A3A46 95%);
-  background-image: linear-gradient(-153deg,#416C7B 0%, #5A3A46 95%); }
-  #event-tracks h2 {
-    color: #fff; }
-    #event-tracks h2 span {
-      color: #CCCCCC; }
-  @media only screen and (min-width: 1170px) {
-    #event-tracks {
-      height: 600px;
-      background-color: #416C7B;
-      background-image: -webkit-linear-gradient(-117deg, #416C7B 0%, #5A3A46 95%);
-      background-image: linear-gradient(-153deg,#416C7B 0%, #5A3A46 95%);
-      background-image: url(img/event-tracks/medium.png);
-      background-image: url(img/event-tracks/medium.png); } }
-  #event-tracks .headline-container {
-    background-color: #F98B76;
-    width: 282px; }
-    @media only screen and (min-width: 768px) {
-      #event-tracks .headline-container {
-        width: 436px; } }
-    @media only screen and (min-width: 1170px) {
-      #event-tracks .headline-container {
-        width: 570px; } }
-    #event-tracks .headline-container h1 {
-      color: #fff; }
-  #event-tracks p {
-    color: #fff; }
-  #event-tracks a {
-    color: #F98B76; }
-  #event-tracks a:hover {
-    color: #50E3C2; }
-
-#event-managing {
-  background-color: #fff;
-  /* Rectangle 1: */ }
-  #event-managing h2 {
-    color: #000; }
-    #event-managing h2 span {
-      color: #CCCCCC; }
-  @media only screen and (min-width: 1170px) {
-    #event-managing {
-      background-image: url(img/event-managing/medium.png);
-      background-image: url(img/event-managing/medium.png); } }
-  #event-managing .headline-container {
-    background-color: #B375BD;
-    width: 282px; }
-    @media only screen and (min-width: 768px) {
-      #event-managing .headline-container {
-        width: 436px; } }
-    @media only screen and (min-width: 1170px) {
-      #event-managing .headline-container {
-        width: 570px; } }
-    #event-managing .headline-container h1 {
-      color: #fff; }
-  #event-managing p {
-    color: #000; }
-    @media only screen and (min-width: 1170px) {
-      #event-managing p {
-        width: 320px; } }
-  #event-managing a {
-    color: #B375BD; }
-  #event-managing a:hover {
-    color: #248EEC; }
-
-#event-collection {
-  background-color: #D3D3D3; }
-  #event-collection h2 {
-    color: #000; }
-    #event-collection h2 span {
-      color: #444; }
-  @media only screen and (min-width: 1170px) {
-    #event-collection {
-      background-image: url(img/event-collection/medium.png);
-      background-image: url(img/event-collection/medium.png); } }
-  #event-collection .headline-container {
-    background-color: #fff;
-    width: 284px; }
-    @media only screen and (min-width: 768px) {
-      #event-collection .headline-container {
-        width: 474px; } }
-    @media only screen and (min-width: 1170px) {
-      #event-collection .headline-container {
-        width: 630px; } }
-    #event-collection .headline-container h1 {
-      color: #000;
-      margin-left: 10px; }
-      @media only screen and (min-width: 768px) {
-        #event-collection .headline-container h1 {
-          margin-left: 20px; } }
-  #event-collection p {
-    color: #000; }
-  #event-collection a {
-    color: #248EEC; }
-  #event-collection a:hover {
-    color: #B375BD; }
-
-#event-festival {
-  background-color: #F5BF52; }
-  #event-festival h2 {
-    color: #000; }
-    #event-festival h2 span {
-      color: #444; }
-  @media only screen and (min-width: 1170px) {
-    #event-festival {
-      background-image: url(img/event-festival/medium.png);
-      background-image: url(img/event-festival/medium.png); } }
-  #event-festival .headline-container {
-    background-color: #fff;
-    width: 288px; }
-    @media only screen and (min-width: 768px) {
-      #event-festival .headline-container {
-        width: 500px; } }
-    @media only screen and (min-width: 1170px) {
-      #event-festival .headline-container {
-        width: 680px; } }
-    #event-festival .headline-container h1 {
-      color: #000;
-      margin-left: 10px;
-      letter-spacing: 1px; }
-      @media only screen and (min-width: 768px) {
-        #event-festival .headline-container h1 {
-          margin-left: 20px;
-          letter-spacing: 2px; } }
-  #event-festival p {
-    color: #000; }
-    @media only screen and (min-width: 1170px) {
-      #event-festival p {
-        width: 420px; } }
-  #event-festival a {
-    color: #fff; }
-  #event-festival a:hover {
-    color: #B375BD; }
 
 /* -------------------------------- 
 

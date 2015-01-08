@@ -1,9 +1,11 @@
 // breakpoints
    
 $S:     480px;   
-$M:     768px;     
-$L:     1170px;     
-$XL:     1920px;    
+$M:     600px;     
+$L:     980px; 
+$E1: 	1080px;   
+$E2: 	1280px;  
+$E3: 	1650px;  
 
 // media queries
 
@@ -17,8 +19,14 @@ $XL:     1920px;
   @else if $canvas == L {
    @media only screen and (min-width: $L) { @content; } 
   }
-  @else if $canvas == XL {
-   @media only screen and (min-width: $XL) { @content; } 
+  @else if $canvas == E1 {
+   @media only screen and (min-width: $E1) { @content; } 
+  }
+  @else if $canvas == E2 {
+   @media only screen and (min-width: $E2) { @content; } 
+  }
+  @else if $canvas == E3 {
+   @media only screen and (min-width: $E3) { @content; } 
   }
 }
 
