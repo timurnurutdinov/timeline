@@ -40,6 +40,7 @@ a {
 	max-width: 29rem;
 	
 	@include MQ(M) {
+		height: 360px;
 		max-width: 60rem;
 	}
 
@@ -48,17 +49,34 @@ a {
 		height: 600px;
 	}
 	
+	.cd-headline {
+		padding: 0;
+		padding-top: 80px;
+
+		@include MQ(L) {
+			padding-top: 160px;
+		}
+	}
 	
 	h4 {
 		text-transform: uppercase;
 		letter-spacing: 0.6rem;
 		position: relative;
-		padding-bottom: 80px;
+//		padding-bottom: 40px;
 	}
 	
-	h5:last-child {
+	#intro-love {
+		//background: red;
+		padding-top: 40px;
+		
+		@include MQ(L) {
+			padding-top: 80px;
+		}
+	}
+	
+	#intro-contact {
 		padding-top: 5px;
-		color: $color-light-grey;
+		color: $color-grey-light;
 		white-space: nowrap;
 		
 		a {
@@ -66,12 +84,43 @@ a {
 		}
 	}
 	
-	.cd-headline {
-		padding-top: 80px;
-
-		@include MQ(L) {
-			padding-top: 160px;
+	.links {
+		padding-top: 0;
+		
+		.link-block {
+			visibility: hidden;
 		}
+		
+		@include MQ(M) {
+			
+			padding-top: 80px;
+			
+			.link-line {
+				visibility: hidden;
+			}
+			
+			.link-block {
+				//background: red;
+				visibility: visible;
+				margin-right: 14px;
+			}
+		}
+		
+		a {	
+			font-family: $secondary-font;
+			font-size: 14px;
+			color: #A5A5A5;
+			letter-spacing: 0.34px;
+			line-height: 23px;
+			font-weight: 500;
+		}
+		
+		p {
+			padding-top: 10px;	
+		}
+		
+		
+
 	}
 }
 
@@ -131,7 +180,7 @@ a {
 	
 	@include MQ(L) {
 		height: 760px;
-		background-image: url('img/event-rdc/medium.png');
+//		background-image: url('img/event-rdc/extra.png');
 		background-repeat: no-repeat;
 		background-position: 200% 50%;
 	}
@@ -170,6 +219,7 @@ a {
 		
 		.headline-container {
 			margin-top: 4px;
+			margin-left: -20px;
 			height: 60px;
 			max-width: 29rem;
 			background-color: grey;
@@ -183,19 +233,21 @@ a {
 			}
 			
 			h2 {
-				padding-top: 18px;
+				font-weight: 300;
+				padding-top: 20px;
 				margin-left: 20px;
+				letter-spacing: 0.4px;
 				
 				@include MQ(M) {
-					padding-top: 20px;
-					
+					padding-top: 26px;
+					letter-spacing: 2px;
 				}
 			}
 		}
 		
 		
 		p {
-			padding-top: 30px;
+			padding-top: 20px;
 			max-width: 100%;
 			
 			@include MQ(M) {
@@ -211,23 +263,32 @@ a {
 		
 		
 		pre {
-			padding-top: 20px;
+			padding-top: 10px;
 			
 			@include MQ(L) {
 				padding-top: 30px;
 			}
 			
-			a {
-				text-transform: uppercase;
-				
+			a {	
 				font-family: $secondary-font;
 				font-size: 2rem;
 				line-height: 2.4rem;
-				font-weight: 300;
+				font-weight: 500;
+				
+				@include transition(all 500ms ease-out);
 	
 				@include MQ(L) {
 					font-size: 2.4rem;
 					line-height: 3rem;
+				}
+			}
+			
+			a:hover {
+				font-size: 2.1rem;
+				letter-spacing: 0.2px;
+				
+				@include MQ(L) {
+					font-size: 2.5rem;
 				}
 			}
 		}
@@ -253,6 +314,172 @@ a {
 		}
 	}
 }
+
+
+#event-rdc {
+	background-color: $color-event-rdc;
+	@include MQ(L) {
+		background-image: url('img/event-rdc/extra.png');
+	}
+		
+	h3 {
+		color: $color-grey-light;	
+		span { color: $color-grey; }
+	}
+	
+	.headline-container {
+		background-color: $color-white;
+		width: 248px;
+		@include MQ(M) { width: 570px;}
+		h2 { color: $color-event-rdc; }
+	}
+	
+	pre {
+		a { color: #F5BF52; }
+		a:hover { color: $color-white; text-decoration: underline; }
+	}
+	
+}
+
+
+#event-guidelines {
+	background-color: $color-white;
+	@include MQ(L) {
+		background-image: url('img/event-guidelines/extra.png');
+	}
+		
+	h3 {
+		color: $color-grey;
+		span { color: $color-grey-light; }
+	}
+	
+	.headline-container {
+		background-color: $color-event-guidelines;
+		width: 244px;
+		@include MQ(M) { width: 570px;}
+		h2 { color: $color-white; }
+	}
+	
+	p { color: $color-dark; }
+	
+	pre {
+		a { color: $color-event-guidelines;}
+		a:hover { color: $color-event-tracks; text-decoration: underline;}
+	}
+	
+}
+
+#event-tracks {
+	background-color: #504C5A;
+	
+	@include MQ(L) {
+		background-image: url('img/event-tracks/extra.png');
+	}
+		
+	h3 {
+		color: $color-white;
+		span { color: $color-grey-light; }
+	}
+	
+	.headline-container {
+		background-color: $color-event-tracks;
+		width: 240px;
+		@include MQ(M) { width: 570px;}
+		h2 { color: $color-white; }
+	}
+	
+	p { color: $color-white; }
+	
+	pre {
+		a { color: $color-event-tracks;}
+		a:hover { color: $color-white; text-decoration: underline;}
+	}
+}
+
+
+#event-managing {
+	background-color: $color-white;
+	
+	@include MQ(L) {
+		background-image: url('img/event-managing/extra.png');
+	}
+		
+	h3 {
+		color: $color-grey;
+		span { color: $color-grey-light; }
+	}
+	
+	.headline-container {
+		background-color: $color-event-managing;
+		width: 248px;
+		@include MQ(M) { width: 580px;}
+		h2 { color: $color-white; }
+	}
+	
+	p { color: $color-dark; }
+	
+	pre {
+		a { color: $color-event-managing;}
+		a:hover { color: $color-event-tracks; text-decoration: underline;}
+	}
+}
+
+
+#event-collection {
+	background-color: #D3D3D3;
+	
+	@include MQ(L) {
+		background-image: url('img/event-collection/extra.png');
+	}
+		
+	h3 {
+		color: $color-dark;
+		span { color: #888; }
+	}
+	
+	.headline-container {
+		background-color: $color-white;
+		width: 260px;
+		@include MQ(M) { max-width: 620px; width: 620px;}
+		h2 { color: $color-dark; }
+	}
+	
+	p { color: $color-dark; }
+	
+	pre {
+		a { color: #248EEC;}
+		a:hover { color: $color-event-rdc; text-decoration: underline;}
+	}
+}
+
+
+#event-festival {
+	background-color: $color-event-festival;
+	
+	@include MQ(L) {
+		background-image: url('img/event-festival/extra.png');
+	}
+		
+	h3 {
+		color: $color-dark;
+		span { color: $color-grey; }
+	}
+	
+	.headline-container {
+		background-color: $color-white;
+		width: 280px;
+		@include MQ(M) { max-width: 670px; width: 670px;}
+		h2 { color: $color-dark;}
+	}
+	
+	p { color: $color-dark; }
+	
+	pre {
+		a { color: $color-white;}
+		a:hover { color: #E45560; text-decoration: underline;}
+	}
+}
+
 
 
 

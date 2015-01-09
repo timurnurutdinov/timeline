@@ -1151,12 +1151,12 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.22484e+06,
+		"initialSize": 433124,
 		"inputAbbreviatedPath": "\/css\/img\/event-collection\/extra.png",
 		"outputAbbreviatedPath": "\/css\/img\/event-collection\/extra.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/css\/img\/event-collection\/large.png": {
 		"fileType": 32768,
@@ -1167,7 +1167,7 @@
 		"outputAbbreviatedPath": "\/css\/img\/event-collection\/large.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/css\/img\/event-collection\/medium.png": {
 		"fileType": 32768,
@@ -1178,29 +1178,18 @@
 		"outputAbbreviatedPath": "\/css\/img\/event-collection\/medium.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/css\/img\/event-collection\/small.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 59951,
-		"inputAbbreviatedPath": "\/css\/img\/event-collection\/small.png",
-		"outputAbbreviatedPath": "\/css\/img\/event-collection\/small.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/css\/img\/event-festival\/extra.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.01958e+06,
+		"initialSize": 273143,
 		"inputAbbreviatedPath": "\/css\/img\/event-festival\/extra.png",
 		"outputAbbreviatedPath": "\/css\/img\/event-festival\/extra.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/css\/img\/event-festival\/large.png": {
 		"fileType": 32768,
@@ -1211,7 +1200,7 @@
 		"outputAbbreviatedPath": "\/css\/img\/event-festival\/large.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/css\/img\/event-festival\/medium.png": {
 		"fileType": 32768,
@@ -1222,29 +1211,18 @@
 		"outputAbbreviatedPath": "\/css\/img\/event-festival\/medium.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/css\/img\/event-festival\/small.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 41719,
-		"inputAbbreviatedPath": "\/css\/img\/event-festival\/small.png",
-		"outputAbbreviatedPath": "\/css\/img\/event-festival\/small.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/css\/img\/event-guidelines\/extra.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.23488e+06,
+		"initialSize": 390291,
 		"inputAbbreviatedPath": "\/css\/img\/event-guidelines\/extra.png",
 		"outputAbbreviatedPath": "\/css\/img\/event-guidelines\/extra.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/css\/img\/event-guidelines\/large.png": {
 		"fileType": 32768,
@@ -1255,7 +1233,7 @@
 		"outputAbbreviatedPath": "\/css\/img\/event-guidelines\/large.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/css\/img\/event-guidelines\/medium.png": {
 		"fileType": 32768,
@@ -1266,29 +1244,18 @@
 		"outputAbbreviatedPath": "\/css\/img\/event-guidelines\/medium.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/css\/img\/event-guidelines\/small.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 83056,
-		"inputAbbreviatedPath": "\/css\/img\/event-guidelines\/small.png",
-		"outputAbbreviatedPath": "\/css\/img\/event-guidelines\/small.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/css\/img\/event-managing\/extra.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.17836e+06,
+		"initialSize": 371298,
 		"inputAbbreviatedPath": "\/css\/img\/event-managing\/extra.png",
 		"outputAbbreviatedPath": "\/css\/img\/event-managing\/extra.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/css\/img\/event-managing\/large.png": {
 		"fileType": 32768,
@@ -1299,7 +1266,7 @@
 		"outputAbbreviatedPath": "\/css\/img\/event-managing\/large.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/css\/img\/event-managing\/medium.png": {
 		"fileType": 32768,
@@ -1310,18 +1277,18 @@
 		"outputAbbreviatedPath": "\/css\/img\/event-managing\/medium.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/css\/img\/event-managing\/small.png": {
+	"\/css\/img\/event-rdc\/extra.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 70159,
-		"inputAbbreviatedPath": "\/css\/img\/event-managing\/small.png",
-		"outputAbbreviatedPath": "\/css\/img\/event-managing\/small.png",
+		"initialSize": 318996,
+		"inputAbbreviatedPath": "\/css\/img\/event-rdc\/extra.png",
+		"outputAbbreviatedPath": "\/css\/img\/event-rdc\/extra.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/css\/img\/event-rdc\/large.png": {
 		"fileType": 32768,
@@ -1332,7 +1299,7 @@
 		"outputAbbreviatedPath": "\/css\/img\/event-rdc\/large.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/css\/img\/event-rdc\/medium.png": {
 		"fileType": 32768,
@@ -1343,29 +1310,18 @@
 		"outputAbbreviatedPath": "\/css\/img\/event-rdc\/medium.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/css\/img\/event-rdc\/small.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 81386,
-		"inputAbbreviatedPath": "\/css\/img\/event-rdc\/small.png",
-		"outputAbbreviatedPath": "\/css\/img\/event-rdc\/small.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/css\/img\/event-tracks\/extra.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.5703e+06,
+		"initialSize": 355125,
 		"inputAbbreviatedPath": "\/css\/img\/event-tracks\/extra.png",
 		"outputAbbreviatedPath": "\/css\/img\/event-tracks\/extra.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/css\/img\/event-tracks\/large.png": {
 		"fileType": 32768,
@@ -1376,7 +1332,7 @@
 		"outputAbbreviatedPath": "\/css\/img\/event-tracks\/large.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/css\/img\/event-tracks\/medium.png": {
 		"fileType": 32768,
@@ -1387,18 +1343,7 @@
 		"outputAbbreviatedPath": "\/css\/img\/event-tracks\/medium.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/css\/img\/event-tracks\/small.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 101115,
-		"inputAbbreviatedPath": "\/css\/img\/event-tracks\/small.png",
-		"outputAbbreviatedPath": "\/css\/img\/event-tracks\/small.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/css\/index.css": {
 		"fileType": 16,
@@ -1426,6 +1371,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/designer timeline 2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 434069,
+		"inputAbbreviatedPath": "\/designer timeline 2.png",
+		"outputAbbreviatedPath": "\/designer timeline 2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/index.html": {
 		"fileType": 8192,
