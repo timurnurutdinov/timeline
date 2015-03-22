@@ -118,7 +118,7 @@ a {
     color: #CCCCCC;
     white-space: nowrap; }
     .cd-intro #intro-contact a {
-      color: #F98B76; }
+      color: #F5BF52; }
   .cd-intro .links {
     padding-top: 0; }
     .cd-intro .links .link-block {
@@ -140,6 +140,16 @@ a {
       font-weight: 500; }
     .cd-intro .links p {
       padding-top: 10px; }
+    .cd-intro .links #dribbble-link:hover {
+      color: #F41A7B; }
+    .cd-intro .links #twitter-link:hover {
+      color: #38A9F2; }
+    .cd-intro .links #medium-link:hover {
+      color: white; }
+    .cd-intro .links #linkedin-link:hover {
+      color: #38A9F2; }
+    .cd-intro .links #behane-link:hover {
+      color: white; }
 
 .cd-words-wrapper {
   display: inline-block;
@@ -174,7 +184,9 @@ a {
 
 .timeline-event {
   width: 100%;
-  background-color: red; }
+  background-color: red;
+  margin-bottom: 0;
+  padding-bottom: -10px; }
   @media only screen and (min-width: 980px) {
     .timeline-event {
       height: 760px;
@@ -199,7 +211,10 @@ a {
       .timeline-event .event-wrapper {
         max-width: 98rem; } }
     .timeline-event .event-wrapper h3 {
-      padding-top: 30px; }
+      padding-top: 40px; }
+      @media only screen and (min-width: 600px) {
+        .timeline-event .event-wrapper h3 {
+          padding-top: 70px; } }
       @media only screen and (min-width: 980px) {
         .timeline-event .event-wrapper h3 {
           padding-top: 15rem; } }
@@ -209,13 +224,13 @@ a {
       height: 60px;
       max-width: 29rem;
       background-color: grey;
-      box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.36); }
+      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.36); }
       @media only screen and (min-width: 600px) {
         .timeline-event .event-wrapper .headline-container {
           margin-top: 10px;
           height: 100px;
           max-width: 60rem;
-          box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.5); } }
+          box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5); } }
       .timeline-event .event-wrapper .headline-container h2 {
         font-weight: 300;
         padding-top: 20px;
@@ -226,60 +241,115 @@ a {
             padding-top: 26px;
             letter-spacing: 2px; } }
     .timeline-event .event-wrapper p {
-      padding-top: 20px;
+      padding-top: 30px;
       max-width: 100%; }
       @media only screen and (min-width: 600px) {
         .timeline-event .event-wrapper p {
-          padding-top: 40px;
+          padding-top: 50px;
           max-width: 54rem; } }
       @media only screen and (min-width: 980px) {
         .timeline-event .event-wrapper p {
-          padding-top: 60px;
+          padding-top: 70px;
           max-width: 40rem; } }
     .timeline-event .event-wrapper pre {
-      padding-top: 10px; }
-      @media only screen and (min-width: 980px) {
+      padding-top: 20px; }
+      @media only screen and (min-width: 600px) {
         .timeline-event .event-wrapper pre {
-          padding-top: 30px; } }
+          padding-top: 40px;
+          padding-bottom: 30px; } }
       .timeline-event .event-wrapper pre a {
         font-family: "Rajdhani", sans-serif;
         font-size: 2rem;
         line-height: 2.4rem;
         font-weight: 500;
-        -webkit-transition: all 500ms ease-out;
-        -moz-transition: all 500ms ease-out;
-        transition: all 500ms ease-out; }
+        -webkit-transition: all 400ms ease-out;
+        -moz-transition: all 400ms ease-out;
+        transition: all 400ms ease-out; }
         @media only screen and (min-width: 980px) {
           .timeline-event .event-wrapper pre a {
             font-size: 2.4rem;
             line-height: 3rem; } }
       .timeline-event .event-wrapper pre a:hover {
-        font-size: 2.1rem;
-        letter-spacing: 0.2px; }
-        @media only screen and (min-width: 980px) {
-          .timeline-event .event-wrapper pre a:hover {
-            font-size: 2.5rem; } }
-  .timeline-event .image-wrapper img {
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    margin: auto; }
+        letter-spacing: 0.8px; }
+  .timeline-event .image-wrapper {
+    padding-top: 0;
+    margin-top: 0; }
+    .timeline-event .image-wrapper img {
+      width: 100%;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      margin: auto; }
+      @media only screen and (min-width: 600px) {
+        .timeline-event .image-wrapper img {
+          max-width: 980px; } }
+      @media only screen and (min-width: 980px) {
+        .timeline-event .image-wrapper img {
+          visibility: hidden; } }
+
+#event-organising {
+  background-color: #FFDE8E; }
+  @media only screen and (min-width: 980px) {
+    #event-organising {
+      background-image: url("img/event-organising/extra.png"); } }
+  #event-organising h3 {
+    color: #333; }
+    #event-organising h3 span {
+      color: #444; }
+  #event-organising .headline-container {
+    background-color: #000;
+    width: 248px; }
     @media only screen and (min-width: 600px) {
-      .timeline-event .image-wrapper img {
-        max-width: 980px; } }
+      #event-organising .headline-container {
+        width: 580px; } }
+    #event-organising .headline-container h2 {
+      color: #fff; }
+  #event-organising p {
+    color: #333; }
+  #event-organising pre a {
+    color: #D03202; }
+
+#event-bhsad {
+  background-color: #141623; }
+  @media only screen and (min-width: 980px) {
+    #event-bhsad {
+      background-image: url("img/event-bhsad/extra.png"); } }
+  #event-bhsad h3 {
+    color: #fff; }
+    #event-bhsad h3 span {
+      color: #CCCCCC; }
+  #event-bhsad .headline-container {
+    background-color: #fff;
+    width: 306px; }
+    @media only screen and (min-width: 600px) {
+      #event-bhsad .headline-container {
+        max-width: 650px;
+        width: 650px; } }
     @media only screen and (min-width: 980px) {
-      .timeline-event .image-wrapper img {
-        visibility: hidden; } }
+      #event-bhsad .headline-container {
+        max-width: 710px;
+        width: 710px; } }
+    #event-bhsad .headline-container h2 {
+      color: #333; }
+      @media only screen and (min-width: 600px) {
+        #event-bhsad .headline-container h2 {
+          letter-spacing: 0; } }
+      @media only screen and (min-width: 980px) {
+        #event-bhsad .headline-container h2 {
+          letter-spacing: 2px; } }
+  #event-bhsad p {
+    color: #fff; }
+  #event-bhsad pre a {
+    color: #FFDE8E; }
 
 #event-rdc {
-  background-color: #7F54AC; }
+  background-color: #1988EB; }
   @media only screen and (min-width: 980px) {
     #event-rdc {
       background-image: url("img/event-rdc/extra.png"); } }
   #event-rdc h3 {
-    color: #CCCCCC; }
+    color: #fff; }
     #event-rdc h3 span {
-      color: #444; }
+      color: #CCCCCC; }
   #event-rdc .headline-container {
     background-color: #fff;
     width: 248px; }
@@ -287,12 +357,9 @@ a {
       #event-rdc .headline-container {
         width: 570px; } }
     #event-rdc .headline-container h2 {
-      color: #7F54AC; }
+      color: #1988EB; }
   #event-rdc pre a {
-    color: #F5BF52; }
-  #event-rdc pre a:hover {
-    color: #fff;
-    text-decoration: underline; }
+    color: #000; }
 
 #event-guidelines {
   background-color: #fff; }
@@ -300,11 +367,11 @@ a {
     #event-guidelines {
       background-image: url("img/event-guidelines/extra.png"); } }
   #event-guidelines h3 {
-    color: #444; }
+    color: #000; }
     #event-guidelines h3 span {
-      color: #CCCCCC; }
+      color: #444; }
   #event-guidelines .headline-container {
-    background-color: #34C6A5;
+    background-color: #F5BF52;
     width: 244px; }
     @media only screen and (min-width: 600px) {
       #event-guidelines .headline-container {
@@ -312,37 +379,37 @@ a {
     #event-guidelines .headline-container h2 {
       color: #fff; }
   #event-guidelines p {
-    color: #333; }
+    color: #000; }
   #event-guidelines pre a {
-    color: #34C6A5; }
-  #event-guidelines pre a:hover {
-    color: #F98B76;
-    text-decoration: underline; }
+    color: #F5BF52; }
 
 #event-tracks {
-  background-color: #504C5A; }
+  background-color: #9FF3E9; }
   @media only screen and (min-width: 980px) {
     #event-tracks {
       background-image: url("img/event-tracks/extra.png"); } }
   #event-tracks h3 {
-    color: #fff; }
+    color: #333; }
     #event-tracks h3 span {
-      color: #CCCCCC; }
+      color: #444; }
   #event-tracks .headline-container {
-    background-color: #F98B76;
+    background-color: #000;
     width: 240px; }
     @media only screen and (min-width: 600px) {
       #event-tracks .headline-container {
-        width: 570px; } }
+        width: 564px; } }
     #event-tracks .headline-container h2 {
       color: #fff; }
   #event-tracks p {
-    color: #fff; }
-  #event-tracks pre a {
-    color: #F98B76; }
-  #event-tracks pre a:hover {
-    color: #fff;
-    text-decoration: underline; }
+    color: #333; }
+  #event-tracks a {
+    margin-top: 14px; }
+    @media only screen and (min-width: 600px) {
+      #event-tracks a {
+        margin-top: 22px; } }
+    @media only screen and (min-width: 980px) {
+      #event-tracks a {
+        margin-top: 30px; } }
 
 #event-managing {
   background-color: #fff; }
@@ -365,17 +432,14 @@ a {
     color: #333; }
   #event-managing pre a {
     color: #B375BD; }
-  #event-managing pre a:hover {
-    color: #F98B76;
-    text-decoration: underline; }
 
 #event-collection {
-  background-color: #D3D3D3; }
+  background-color: #444; }
   @media only screen and (min-width: 980px) {
     #event-collection {
       background-image: url("img/event-collection/extra.png"); } }
   #event-collection h3 {
-    color: #333; }
+    color: #fff; }
     #event-collection h3 span {
       color: #888; }
   #event-collection .headline-container {
@@ -388,15 +452,12 @@ a {
     #event-collection .headline-container h2 {
       color: #333; }
   #event-collection p {
-    color: #333; }
+    color: #fff; }
   #event-collection pre a {
-    color: #248EEC; }
-  #event-collection pre a:hover {
-    color: #7F54AC;
-    text-decoration: underline; }
+    color: #7CF1F1; }
 
 #event-festival {
-  background-color: #F5BF52; }
+  background-color: #DDD; }
   @media only screen and (min-width: 980px) {
     #event-festival {
       background-image: url("img/event-festival/extra.png"); } }
@@ -405,21 +466,18 @@ a {
     #event-festival h3 span {
       color: #444; }
   #event-festival .headline-container {
-    background-color: #fff;
+    background-color: #F45568;
     width: 280px; }
     @media only screen and (min-width: 600px) {
       #event-festival .headline-container {
         max-width: 670px;
         width: 670px; } }
     #event-festival .headline-container h2 {
-      color: #333; }
+      color: #fff; }
   #event-festival p {
     color: #333; }
   #event-festival pre a {
-    color: #fff; }
-  #event-festival pre a:hover {
-    color: #E45560;
-    text-decoration: underline; }
+    color: #F45568; }
 
 /* -------------------------------- 
 

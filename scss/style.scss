@@ -80,7 +80,7 @@ a {
 		white-space: nowrap;
 		
 		a {
-			color: $color-event-tracks;
+			color: #F5BF52;
 		}
 	}
 	
@@ -118,6 +118,13 @@ a {
 		p {
 			padding-top: 10px;	
 		}
+		
+		
+		#dribbble-link:hover {color: #F41A7B;}
+		#twitter-link:hover {color: #38A9F2;}
+		#medium-link:hover {color: white;}
+		#linkedin-link:hover {color: #38A9F2;}
+		#behane-link:hover {color: white;}
 		
 		
 
@@ -177,6 +184,8 @@ a {
 .timeline-event {
 	width: 100%;
 	background-color: red;
+	margin-bottom: 0;
+	padding-bottom: -10px;
 	
 	@include MQ(L) {
 		height: 760px;
@@ -210,7 +219,11 @@ a {
 		}
 		
 		h3 {
-			padding-top: 30px;
+			padding-top: 40px;
+			
+			@include MQ(M) {
+				padding-top: 70px;
+			}
 			
 			@include MQ(L) {
 				padding-top: 15rem;
@@ -223,13 +236,13 @@ a {
 			height: 60px;
 			max-width: 29rem;
 			background-color: grey;
-			box-shadow: 0px 20px 20px 0px rgba(0,0,0,0.36);
+			box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.36);
 			
 			@include MQ(M) {
 				margin-top: 10px;
 				height: 100px;
 				max-width: 60rem;
-				box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.50);
+				box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.50);
 			}
 			
 			h2 {
@@ -247,26 +260,27 @@ a {
 		
 		
 		p {
-			padding-top: 20px;
+			padding-top: 30px;
 			max-width: 100%;
 			
 			@include MQ(M) {
-				padding-top: 40px;
+				padding-top: 50px;
 				max-width: 54rem;
 			}
 			
 			@include MQ(L) {
-				padding-top: 60px;
+				padding-top: 70px;
 				max-width: 40rem;
 			}
 		}
 		
 		
 		pre {
-			padding-top: 10px;
+			padding-top: 20px;
 			
-			@include MQ(L) {
-				padding-top: 30px;
+			@include MQ(M) {
+				padding-top: 40px;
+				padding-bottom: 30px;
 			}
 			
 			a {	
@@ -275,7 +289,7 @@ a {
 				line-height: 2.4rem;
 				font-weight: 500;
 				
-				@include transition(all 500ms ease-out);
+				@include transition(all 400ms ease-out);
 	
 				@include MQ(L) {
 					font-size: 2.4rem;
@@ -284,11 +298,11 @@ a {
 			}
 			
 			a:hover {
-				font-size: 2.1rem;
-				letter-spacing: 0.2px;
+//				font-size: 2.1rem;
+				letter-spacing: 0.8px;
 				
 				@include MQ(L) {
-					font-size: 2.5rem;
+//					font-size: 2.5rem;
 				}
 			}
 		}
@@ -296,7 +310,10 @@ a {
 	}
 
 	.image-wrapper {
-
+		
+		padding-top: 0;
+		margin-top: 0;
+		
 		img {
 				width: 100%;
 				background-repeat: no-repeat;
@@ -316,6 +333,67 @@ a {
 }
 
 
+#event-organising {
+	background-color: $color-event-organising;
+	
+	@include MQ(L) {
+		background-image: url('img/event-organising/extra.png');
+	}
+		
+	h3 {
+		color: $color-dark;
+		span { color: $color-grey; }
+	}
+	
+	.headline-container {
+		background-color: $color-black;
+		width: 248px;
+		@include MQ(M) { width: 580px;}
+		h2 { color: $color-white; }
+	}
+	
+	p { color: $color-dark; }
+	
+	pre {
+		a { color: #D03202;}
+//		a:hover { color: $color-white;}
+	}
+}
+
+
+#event-bhsad {
+	background-color: $color-event-bhsad;
+	
+	@include MQ(L) {
+		background-image: url('img/event-bhsad/extra.png');
+	}
+		
+	h3 {
+		color: $color-white;
+		span { color: $color-grey-light; }
+	}
+	
+	.headline-container {
+		background-color: $color-white;
+		width: 306px;
+		@include MQ(M) { max-width: 650px; width: 650px;}
+		@include MQ(L) { max-width: 710px; width: 710px;}
+		h2 { color: $color-dark;
+			@include MQ(M) { letter-spacing: 0;}
+			@include MQ(L) { letter-spacing: 2px;}
+		}
+		
+	}
+	
+	p { color: $color-white; }
+	
+	pre {
+		a { color: #FFDE8E;}
+//		a:hover { color: #E45560;}
+	}
+}
+
+
 #event-rdc {
 	background-color: $color-event-rdc;
 	@include MQ(L) {
@@ -323,8 +401,8 @@ a {
 	}
 		
 	h3 {
-		color: $color-grey-light;	
-		span { color: $color-grey; }
+		color: $color-white;	
+		span { color: $color-grey-light; }
 	}
 	
 	.headline-container {
@@ -335,8 +413,8 @@ a {
 	}
 	
 	pre {
-		a { color: #F5BF52; }
-		a:hover { color: $color-white; text-decoration: underline; }
+		a { color: #000; }
+//		a:hover { color: $color-white;}
 	}
 	
 }
@@ -349,8 +427,8 @@ a {
 	}
 		
 	h3 {
-		color: $color-grey;
-		span { color: $color-grey-light; }
+		color: $color-black;
+		span { color: $color-grey; }
 	}
 	
 	.headline-container {
@@ -360,40 +438,46 @@ a {
 		h2 { color: $color-white; }
 	}
 	
-	p { color: $color-dark; }
+	p { color: $color-black; }
 	
 	pre {
 		a { color: $color-event-guidelines;}
-		a:hover { color: $color-event-tracks; text-decoration: underline;}
+//		a:hover { color: $color-event-tracks;}
 	}
 	
 }
 
 #event-tracks {
-	background-color: #504C5A;
+	background-color: $color-event-tracks;
 	
 	@include MQ(L) {
 		background-image: url('img/event-tracks/extra.png');
 	}
 		
 	h3 {
-		color: $color-white;
-		span { color: $color-grey-light; }
+		color: $color-dark;
+		span { color: $color-grey; }
 	}
 	
 	.headline-container {
-		background-color: $color-event-tracks;
+		background-color: $color-black;
 		width: 240px;
-		@include MQ(M) { width: 570px;}
+		@include MQ(M) { width: 564px;}
 		h2 { color: $color-white; }
 	}
 	
-	p { color: $color-white; }
+	p { color: $color-dark; }
 	
-	pre {
-		a { color: $color-event-tracks;}
-		a:hover { color: $color-white; text-decoration: underline;}
+	a {
+		margin-top: 14px;
+		@include MQ(M) {margin-top: 22px;}
+		@include MQ(L) {margin-top: 30px;}
 	}
+	
+	//pre {
+//		a { color: #FFF;}
+//		a:hover { color: $color-white;}
+//	}
 }
 
 
@@ -420,20 +504,20 @@ a {
 	
 	pre {
 		a { color: $color-event-managing;}
-		a:hover { color: $color-event-tracks; text-decoration: underline;}
+//		a:hover { color: $color-event-tracks;}
 	}
 }
 
 
 #event-collection {
-	background-color: #D3D3D3;
+	background-color: $color-grey;
 	
 	@include MQ(L) {
 		background-image: url('img/event-collection/extra.png');
 	}
 		
 	h3 {
-		color: $color-dark;
+		color: $color-white;
 		span { color: #888; }
 	}
 	
@@ -444,11 +528,11 @@ a {
 		h2 { color: $color-dark; }
 	}
 	
-	p { color: $color-dark; }
+	p { color: $color-white; }
 	
 	pre {
-		a { color: #248EEC;}
-		a:hover { color: $color-event-rdc; text-decoration: underline;}
+		a { color: #7CF1F1;}
+//		a:hover { color: $color-event-rdc;}
 	}
 }
 
@@ -466,17 +550,17 @@ a {
 	}
 	
 	.headline-container {
-		background-color: $color-white;
+		background-color: #F45568;
 		width: 280px;
 		@include MQ(M) { max-width: 670px; width: 670px;}
-		h2 { color: $color-dark;}
+		h2 { color: $color-white;}
 	}
 	
 	p { color: $color-dark; }
 	
 	pre {
-		a { color: $color-white;}
-		a:hover { color: #E45560; text-decoration: underline;}
+		a { color: #F45568;}
+//		a:hover { color: #E45560;}
 	}
 }
 
