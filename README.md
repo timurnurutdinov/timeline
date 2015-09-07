@@ -1,4 +1,4 @@
-Design timline
+Designer Timeline
 =================
 
-I would like to create awesome things.
+Initial version of my site. Will be expanded soon.
