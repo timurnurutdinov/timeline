@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "18493",
+"creatorBuild": "19051",
 "files": {
 	"\/bourbon\/_bourbon-deprecated-upcoming.scss": {
 		"createSourceMap": 0,
@@ -1217,7 +1217,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.01958e+06,
+		"initialSize": 155537,
 		"inputAbbreviatedPath": "\/css\/img\/event-festival\/extra.png",
 		"outputAbbreviatedPath": "\/css\/img\/event-festival\/extra.png",
 		"outputPathIsOutsideProject": 0,
@@ -1228,7 +1228,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 543445,
+		"initialSize": 561158,
 		"inputAbbreviatedPath": "\/css\/img\/event-festival\/large.png",
 		"outputAbbreviatedPath": "\/css\/img\/event-festival\/large.png",
 		"outputPathIsOutsideProject": 0,
@@ -1239,7 +1239,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 269367,
+		"initialSize": 154949,
 		"inputAbbreviatedPath": "\/css\/img\/event-festival\/medium.png",
 		"outputAbbreviatedPath": "\/css\/img\/event-festival\/medium.png",
 		"outputPathIsOutsideProject": 0,
@@ -1250,7 +1250,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.23488e+06,
+		"initialSize": 121347,
 		"inputAbbreviatedPath": "\/css\/img\/event-guidelines\/extra.png",
 		"outputAbbreviatedPath": "\/css\/img\/event-guidelines\/extra.png",
 		"outputPathIsOutsideProject": 0,
@@ -1261,7 +1261,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 401160,
+		"initialSize": 423943,
 		"inputAbbreviatedPath": "\/css\/img\/event-guidelines\/large.png",
 		"outputAbbreviatedPath": "\/css\/img\/event-guidelines\/large.png",
 		"outputPathIsOutsideProject": 0,
@@ -1272,7 +1272,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 403978,
+		"initialSize": 120720,
 		"inputAbbreviatedPath": "\/css\/img\/event-guidelines\/medium.png",
 		"outputAbbreviatedPath": "\/css\/img\/event-guidelines\/medium.png",
 		"outputPathIsOutsideProject": 0,
@@ -1283,7 +1283,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.17836e+06,
+		"initialSize": 206314,
 		"inputAbbreviatedPath": "\/css\/img\/event-managing\/extra.png",
 		"outputAbbreviatedPath": "\/css\/img\/event-managing\/extra.png",
 		"outputPathIsOutsideProject": 0,
@@ -1294,7 +1294,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 699623,
+		"initialSize": 652600,
 		"inputAbbreviatedPath": "\/css\/img\/event-managing\/large.png",
 		"outputAbbreviatedPath": "\/css\/img\/event-managing\/large.png",
 		"outputPathIsOutsideProject": 0,
@@ -1305,7 +1305,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 338273,
+		"initialSize": 203425,
 		"inputAbbreviatedPath": "\/css\/img\/event-managing\/medium.png",
 		"outputAbbreviatedPath": "\/css\/img\/event-managing\/medium.png",
 		"outputPathIsOutsideProject": 0,
@@ -1316,7 +1316,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 262019,
+		"initialSize": 159138,
 		"inputAbbreviatedPath": "\/css\/img\/event-organising\/extra.png",
 		"outputAbbreviatedPath": "\/css\/img\/event-organising\/extra.png",
 		"outputPathIsOutsideProject": 0,
@@ -1327,7 +1327,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 674450,
+		"initialSize": 397745,
 		"inputAbbreviatedPath": "\/css\/img\/event-organising\/large.png",
 		"outputAbbreviatedPath": "\/css\/img\/event-organising\/large.png",
 		"outputPathIsOutsideProject": 0,
@@ -1338,7 +1338,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 256841,
+		"initialSize": 157412,
 		"inputAbbreviatedPath": "\/css\/img\/event-organising\/medium.png",
 		"outputAbbreviatedPath": "\/css\/img\/event-organising\/medium.png",
 		"outputPathIsOutsideProject": 0,
@@ -1349,7 +1349,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 915257,
+		"initialSize": 231441,
 		"inputAbbreviatedPath": "\/css\/img\/event-rdc\/extra.png",
 		"outputAbbreviatedPath": "\/css\/img\/event-rdc\/extra.png",
 		"outputPathIsOutsideProject": 0,
@@ -1360,7 +1360,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 321891,
+		"initialSize": 613372,
 		"inputAbbreviatedPath": "\/css\/img\/event-rdc\/large.png",
 		"outputAbbreviatedPath": "\/css\/img\/event-rdc\/large.png",
 		"outputPathIsOutsideProject": 0,
@@ -1371,7 +1371,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 321874,
+		"initialSize": 231254,
 		"inputAbbreviatedPath": "\/css\/img\/event-rdc\/medium.png",
 		"outputAbbreviatedPath": "\/css\/img\/event-rdc\/medium.png",
 		"outputPathIsOutsideProject": 0,
@@ -1382,7 +1382,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.5703e+06,
+		"initialSize": 268622,
 		"inputAbbreviatedPath": "\/css\/img\/event-tracks\/extra.png",
 		"outputAbbreviatedPath": "\/css\/img\/event-tracks\/extra.png",
 		"outputPathIsOutsideProject": 0,
@@ -1393,7 +1393,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 674269,
+		"initialSize": 812659,
 		"inputAbbreviatedPath": "\/css\/img\/event-tracks\/large.png",
 		"outputAbbreviatedPath": "\/css\/img\/event-tracks\/large.png",
 		"outputPathIsOutsideProject": 0,
@@ -1404,7 +1404,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 479932,
+		"initialSize": 268169,
 		"inputAbbreviatedPath": "\/css\/img\/event-tracks\/medium.png",
 		"outputAbbreviatedPath": "\/css\/img\/event-tracks\/medium.png",
 		"outputPathIsOutsideProject": 0,
@@ -1587,16 +1587,25 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/scss\/style.scss": {
 		"createSourceMap": 0,
@@ -1888,6 +1897,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"globalstrict": {
 			"active": 0,
 			"flagValue": -1
@@ -1974,6 +1987,10 @@
 			},
 		"noarg": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"node": {
@@ -2076,6 +2093,10 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"withstmt": {
 			"active": 0,
 			"flagValue": -1
@@ -2094,10 +2115,6 @@
 			}
 		},
 	"jsLintFlags2": {
-		"ass": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"bitwise": {
 			"active": 0,
 			"flagValue": -1
@@ -2106,15 +2123,7 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"closure": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"continue": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"debug": {
+		"couch": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -2122,75 +2131,27 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"eqeq": {
+		"es6": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"evil": {
+		"eval": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"forin": {
+		"for": {
 			"active": 0,
 			"flagValue": -1
-			},
-		"indent": {
-			"active": 0,
-			"flagValue": 4
 			},
 		"maxlen": {
 			"active": 0,
 			"flagValue": 150
 			},
-		"newcap": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"node": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"nomen": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"plusplus": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"properties": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"regexp": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"rhino": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"sloppy": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"stupid": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"sub": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"todo": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"unparam": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"vars": {
+		"this": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -2199,6 +2160,14 @@
 			"flagValue": -1
 			}
 		},
+	"jsonAutoOutputPathEnabled": 0,
+	"jsonAutoOutputPathFilenamePattern": "*-min.json",
+	"jsonAutoOutputPathRelativePath": "",
+	"jsonAutoOutputPathReplace1": "",
+	"jsonAutoOutputPathReplace2": "",
+	"jsonAutoOutputPathStyle": 0,
+	"jsonOrderOutput": 0,
+	"jsonOutputStyle": 1,
 	"kitAutoOutputPathEnabled": 1,
 	"kitAutoOutputPathFilenamePattern": "*.html",
 	"kitAutoOutputPathRelativePath": "",
@@ -2226,9 +2195,18 @@
 	"markdownAutoOutputPathReplace1": "",
 	"markdownAutoOutputPathReplace2": "",
 	"markdownAutoOutputPathStyle": 0,
+	"markdownCriticStyle": 0,
 	"markdownEnableFootnotes": 0,
-	"markdownEnableSmartyPants": 1,
-	"markdownExpandTabs": 1,
+	"markdownEnableLabels": 1,
+	"markdownEnableSmartQuotes": 1,
+	"markdownEscapeLineBreaks": 0,
+	"markdownMaskEmailAddresses": 1,
+	"markdownOutputFormat": 0,
+	"markdownOutputStyle": 0,
+	"markdownParseMetadata": 1,
+	"markdownProcessHTML": 0,
+	"markdownRandomFootnoteNumbers": 0,
+	"markdownUseCompatibilityMode": 0,
 	"reloadFileURLs": 0,
 	"sassAutoOutputPathEnabled": 1,
 	"sassAutoOutputPathFilenamePattern": "*.css",
@@ -2284,6 +2262,10 @@
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare-returns": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -2364,6 +2346,10 @@
 			"flagValue": -1
 			},
 		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fnames": {
 			"active": 0,
 			"flagValue": -1
 			},
