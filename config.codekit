@@ -1147,6 +1147,39 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/img\/event-adme\/extra.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 409092,
+		"inputAbbreviatedPath": "\/css\/img\/event-adme\/extra.png",
+		"outputAbbreviatedPath": "\/css\/img\/event-adme\/extra.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/css\/img\/event-adme\/large.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.26019e+06,
+		"inputAbbreviatedPath": "\/css\/img\/event-adme\/large.png",
+		"outputAbbreviatedPath": "\/css\/img\/event-adme\/large.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/css\/img\/event-adme\/medium.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 405850,
+		"inputAbbreviatedPath": "\/css\/img\/event-adme\/medium.png",
+		"outputAbbreviatedPath": "\/css\/img\/event-adme\/medium.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/css\/img\/event-bhsad\/extra.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1275,6 +1308,39 @@
 		"initialSize": 120720,
 		"inputAbbreviatedPath": "\/css\/img\/event-guidelines\/medium.png",
 		"outputAbbreviatedPath": "\/css\/img\/event-guidelines\/medium.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/css\/img\/event-inventory\/extra.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 104471,
+		"inputAbbreviatedPath": "\/css\/img\/event-inventory\/extra.png",
+		"outputAbbreviatedPath": "\/css\/img\/event-inventory\/extra.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/css\/img\/event-inventory\/large.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 284840,
+		"inputAbbreviatedPath": "\/css\/img\/event-inventory\/large.png",
+		"outputAbbreviatedPath": "\/css\/img\/event-inventory\/large.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/css\/img\/event-inventory\/medium.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 101532,
+		"inputAbbreviatedPath": "\/css\/img\/event-inventory\/medium.png",
+		"outputAbbreviatedPath": "\/css\/img\/event-inventory\/medium.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1

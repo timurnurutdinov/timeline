@@ -286,6 +286,57 @@ a {
         .timeline-event .image-wrapper img {
           visibility: hidden; } }
 
+#event-inventory {
+  background-color: #5AC2FB; }
+  @media only screen and (min-width: 980px) {
+    #event-inventory {
+      background-image: url("img/event-inventory/extra.png"); } }
+  #event-inventory h3 {
+    color: #000; }
+    #event-inventory h3 span {
+      color: #444; }
+  #event-inventory .headline-container {
+    background-color: #000;
+    width: 270px; }
+    @media only screen and (min-width: 600px) {
+      #event-inventory .headline-container {
+        width: 640px; } }
+    #event-inventory .headline-container h2 {
+      color: #fff;
+      letter-spacing: 0.8px; }
+  #event-inventory p {
+    color: #000; }
+  #event-inventory pre a {
+    color: #fff; }
+
+#event-adme {
+  background-color: #fff; }
+  @media only screen and (min-width: 980px) {
+    #event-adme {
+      background-image: url("img/event-adme/extra.png"); } }
+  #event-adme h3 {
+    color: #333; }
+    #event-adme h3 span {
+      color: #CCCCCC; }
+  #event-adme .headline-container {
+    background-color: #FFCC00;
+    width: 240px; }
+    @media only screen and (min-width: 600px) {
+      #event-adme .headline-container {
+        width: 620px; } }
+    #event-adme .headline-container h2 {
+      color: #000; }
+  #event-adme p {
+    color: #333; }
+  #event-adme a {
+    margin-top: 14px; }
+    @media only screen and (min-width: 600px) {
+      #event-adme a {
+        margin-top: 22px; } }
+    @media only screen and (min-width: 980px) {
+      #event-adme a {
+        margin-top: 30px; } }
+
 #event-organising {
   background-color: #FFDE8E; }
   @media only screen and (min-width: 980px) {
