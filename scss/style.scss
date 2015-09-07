@@ -333,6 +333,67 @@ a {
 }
 
 
+
+#event-inventory {
+	background-color: $color-event-inventory;
+	@include MQ(L) {
+		background-image: url('img/event-inventory/extra.png');
+	}
+		
+	h3 {
+		color: $color-black;
+		span { color: $color-grey; }
+	}
+	
+	.headline-container {
+		background-color: $color-black;
+		width: 270px;
+		@include MQ(M) { width: 640px;}
+		h2 { 
+			color: $color-white;
+			letter-spacing: 0.8px;
+		}
+	}
+	
+	p { color: $color-black; }
+	
+	pre {
+		a { color: $color-white;}
+	}
+	
+}
+
+
+#event-adme {
+	background-color: $color-white;
+
+	@include MQ(L) {
+		background-image: url('img/event-adme/extra.png');
+	}
+
+	h3 {
+		color: $color-dark;
+		span { color: $color-grey-light; }
+	}
+
+	.headline-container {
+		background-color: $color-event-adme;
+		width: 240px;
+		@include MQ(M) { width: 620px;}
+		h2 { color: $color-black; }
+	}
+
+	p { color: $color-dark; }
+
+	a {
+		margin-top: 14px;
+		@include MQ(M) {margin-top: 22px;}
+		@include MQ(L) {margin-top: 30px;}
+	}
+}
+
+
+
 #event-organising {
 	background-color: $color-event-organising;
 	
