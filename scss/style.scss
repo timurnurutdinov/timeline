@@ -334,6 +334,36 @@ a {
 
 
 
+#event-inventory-next {
+	background-color: $color-event-inventory-next;
+	@include MQ(L) {
+		background-image: url('img/event-inventory-next/extra.png');
+	}
+		
+	h3 {
+		color: $color-black;
+		span { color: $color-grey; }
+	}
+	
+	.headline-container {
+		background-color: $color-black;
+		width: 205px;
+		@include MQ(M) { width: 424px;}
+		h2 { 
+			color: $color-white;
+			letter-spacing: 0.8px;
+		}
+	}
+	
+	p { color: $color-black; }
+	
+	pre {
+		a { color: $color-white;}
+	}
+	
+}
+
+
 #event-inventory {
 	background-color: $color-event-inventory;
 	@include MQ(L) {

@@ -286,6 +286,29 @@ a {
         .timeline-event .image-wrapper img {
           visibility: hidden; } }
 
+#event-inventory-next {
+  background-color: #F5A623; }
+  @media only screen and (min-width: 980px) {
+    #event-inventory-next {
+      background-image: url("img/event-inventory-next/extra.png"); } }
+  #event-inventory-next h3 {
+    color: #000; }
+    #event-inventory-next h3 span {
+      color: #444; }
+  #event-inventory-next .headline-container {
+    background-color: #000;
+    width: 205px; }
+    @media only screen and (min-width: 600px) {
+      #event-inventory-next .headline-container {
+        width: 424px; } }
+    #event-inventory-next .headline-container h2 {
+      color: #fff;
+      letter-spacing: 0.8px; }
+  #event-inventory-next p {
+    color: #000; }
+  #event-inventory-next pre a {
+    color: #fff; }
+
 #event-inventory {
   background-color: #5AC2FB; }
   @media only screen and (min-width: 980px) {
