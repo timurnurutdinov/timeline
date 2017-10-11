@@ -21,18 +21,18 @@ a:hover {
 
 h1 {
   font-family: "Hind", sans-serif;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 36px;
-  padding-top: 32px; }
+  padding-top: 48px; }
   @media (min-width: 576px) {
     h1 {
-      font-size: calc(3.7735849057vw + 10.2641509434px); } }
+      font-size: calc(2.8301886792vw + 11.6981132075px); } }
   @media (min-width: 1000px) {
     h1 {
-      font-size: calc(2.6666666667vw + 21.3333333333px); } }
+      font-size: calc(2.6666666667vw + 13.3333333333px); } }
   @media (min-width: 1600px) {
     h1 {
-      font-size: 64px; } }
+      font-size: 56px; } }
   @media (min-width: 576px) {
     h1 {
       line-height: calc(4.7169811321vw + 8.8301886792px); } }
@@ -44,7 +44,7 @@ h1 {
       line-height: 68px; } }
   @media (min-width: 576px) {
     h1 {
-      padding-top: calc(11.320754717vw - 33.2075471698px); } }
+      padding-top: calc(7.5471698113vw + 4.5283018868px); } }
   @media (min-width: 1000px) {
     h1 {
       padding-top: calc(3.3333333333vw + 46.6666666667px); } }
@@ -54,34 +54,47 @@ h1 {
 
 h3 {
   font-family: "Hind", sans-serif;
+  font-weight: 600;
   opacity: 0.6;
-  font-size: 24px;
-  line-height: 36px; }
+  text-transform: uppercase;
+  color: #555;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.8px; }
   @media (min-width: 576px) {
     h3 {
-      font-size: calc(1.8867924528vw + 13.1320754717px); } }
+      font-size: calc(0.4716981132vw + 11.2830188679px); } }
   @media (min-width: 1000px) {
     h3 {
-      font-size: calc(0vw + 32px); } }
+      font-size: calc(0.3333333333vw + 12.6666666667px); } }
   @media (min-width: 1600px) {
     h3 {
-      font-size: 32px; } }
+      font-size: 18px; } }
   @media (min-width: 576px) {
     h3 {
-      line-height: calc(4.7169811321vw + 8.8301886792px); } }
+      line-height: calc(0.7075471698vw + 15.9245283019px); } }
   @media (min-width: 1000px) {
     h3 {
-      line-height: calc(2vw + 36px); } }
+      line-height: calc(0.5vw + 18px); } }
   @media (min-width: 1600px) {
     h3 {
-      line-height: 68px; } }
+      line-height: 26px; } }
+  @media (min-width: 576px) {
+    h3 {
+      letter-spacing: calc(0.0471698113vw + 0.5283018868px); } }
+  @media (min-width: 1000px) {
+    h3 {
+      letter-spacing: calc(0.0333333333vw + 0.6666666667px); } }
+  @media (min-width: 1600px) {
+    h3 {
+      letter-spacing: 1.2px; } }
 
 p {
   font-family: "Mukta", sans-serif;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.1px;
-  color: #555; }
+  color: #000; }
   @media (min-width: 576px) {
     p {
       font-size: calc(0.9433962264vw + 14.5660377358px); } }
@@ -150,6 +163,18 @@ body {
   @media (min-width: 1600px) {
     #left-column p {
       padding-top: 36px; } }
+
+#left-column #my-name {
+  padding-top: 10px; }
+  @media (min-width: 576px) {
+    #left-column #my-name {
+      padding-top: calc(0.9433962264vw + 4.5660377358px); } }
+  @media (min-width: 1000px) {
+    #left-column #my-name {
+      padding-top: calc(0.3333333333vw + 10.6666666667px); } }
+  @media (min-width: 1600px) {
+    #left-column #my-name {
+      padding-top: 16px; } }
 
 #right-column h3 {
   padding-top: 32px; }

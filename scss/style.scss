@@ -86,26 +86,31 @@ a:hover {
 h1 {
 	font-family: $secondary-font;
 
-	$h1-font-size-map: (576px: 32px, 1000px: 48px, 1600px: 64px);
+	$h1-font-size-map: (576px: 28px, 1000px: 40px, 1600px: 56px);
   @include poly-fluid-sizing('font-size', $h1-font-size-map);
 
 	$h1-line-height-map: (576px: 36px, 1000px: 56px, 1600px: 68px);
   @include poly-fluid-sizing('line-height', $h1-line-height-map);
 
-	$h1-padding-top-map: (576px: 32px, 1000px: 80px, 1600px: 100px);
+	$h1-padding-top-map: (576px: 48px, 1000px: 80px, 1600px: 100px);
   @include poly-fluid-sizing('padding-top', $h1-padding-top-map);
 }
 
 h3 {
 	font-family: $secondary-font;
-	// font-weight: 300;
+	font-weight: 600;
 	opacity: 0.6;
+	text-transform: uppercase;
+	color: $color-grey;
 
-	$h1-font-size-map: (576px: 24px, 1000px: 32px, 1600px: 32px);
+	$h1-font-size-map: (576px: 14px, 1000px: 16px, 1600px: 18px);
   @include poly-fluid-sizing('font-size', $h1-font-size-map);
 
-	$h1-line-height-map: (576px: 36px, 1000px: 56px, 1600px: 68px);
+	$h1-line-height-map: (576px: 20px, 1000px: 23px, 1600px: 26px);
   @include poly-fluid-sizing('line-height', $h1-line-height-map);
+
+	$p-letter-spacing-map: (576px: 0.8px, 1000px: 1.0px, 1600px: 1.2px);
+  @include poly-fluid-sizing('letter-spacing', $p-letter-spacing-map);
 
 	// $h1-padding-top-map: (576px: 10px, 1000px: 11px, 1600px: 12px);
   // @include poly-fluid-sizing('padding-top', $h1-padding-top-map);
@@ -132,7 +137,7 @@ p {
 		font-weight: 300;
 	}
 
-  color: $color-grey;
+  color: $color-black;
 }
 
 body {
@@ -165,6 +170,11 @@ body {
 
 	p {
 		$p-margin: (576px: 20px, 1000px: 28px, 1600px: 36px);
+  	@include poly-fluid-sizing('padding-top', $p-margin);
+	}
+
+	#my-name {
+		$p-margin: (576px: 10px, 1000px: 14px, 1600px: 16px);
   	@include poly-fluid-sizing('padding-top', $p-margin);
 	}
 }
