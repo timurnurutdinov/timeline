@@ -136,7 +136,7 @@ p {
 }
 
 body {
-  background-color: #EEE;
+  background-color: #FFF;
 
 	$h1-padding-bottom-map: (576px: 60px, 1000px: 100px, 1600px: 120px);
   @include poly-fluid-sizing('padding-bottom', $h1-padding-bottom-map);
