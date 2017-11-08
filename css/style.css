@@ -8,7 +8,7 @@ Primary style
 -------------------------------- */
 html {
   font-size: 62.5%;
-  font-family: "Hind", sans-serif; }
+  font-family: "Nunito", sans-serif; }
 
 a {
   color: #000;
@@ -20,7 +20,8 @@ a:hover {
   text-decoration: underline; }
 
 h1 {
-  font-family: "Hind", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
   font-size: 28px;
   line-height: 36px;
   padding-top: 48px; }
@@ -53,8 +54,8 @@ h1 {
       padding-top: 100px; } }
 
 h3 {
-  font-family: "Hind", sans-serif;
-  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
   opacity: 0.6;
   text-transform: uppercase;
   color: #555;
@@ -75,19 +76,19 @@ h3 {
       line-height: calc(0.7075471698vw + 15.9245283019px); } }
   @media (min-width: 1000px) {
     h3 {
-      line-height: calc(0.5vw + 18px); } }
+      line-height: calc(0.8333333333vw + 14.6666666667px); } }
   @media (min-width: 1600px) {
     h3 {
-      line-height: 26px; } }
+      line-height: 28px; } }
   @media (min-width: 576px) {
     h3 {
       letter-spacing: calc(0.0471698113vw + 0.5283018868px); } }
   @media (min-width: 1000px) {
     h3 {
-      letter-spacing: calc(0.0333333333vw + 0.6666666667px); } }
+      letter-spacing: calc(0.1vw - 0px); } }
   @media (min-width: 1600px) {
     h3 {
-      letter-spacing: 1.2px; } }
+      letter-spacing: 1.6px; } }
 
 p {
   font-family: "Mukta", sans-serif;
@@ -100,19 +101,19 @@ p {
       font-size: calc(0.9433962264vw + 14.5660377358px); } }
   @media (min-width: 1000px) {
     p {
-      font-size: calc(0.6666666667vw + 17.3333333333px); } }
+      font-size: calc(0vw + 24px); } }
   @media (min-width: 1600px) {
     p {
-      font-size: 28px; } }
+      font-size: 24px; } }
   @media (min-width: 576px) {
     p {
       line-height: calc(1.179245283vw + 17.2075471698px); } }
   @media (min-width: 1000px) {
     p {
-      line-height: calc(0.8333333333vw + 20.6666666667px); } }
+      line-height: calc(1.1666666667vw + 17.3333333333px); } }
   @media (min-width: 1600px) {
     p {
-      line-height: 34px; } }
+      line-height: 36px; } }
   @media (min-width: 576px) {
     p {
       letter-spacing: calc(0.0235849057vw - 0.0358490566px); } }
@@ -122,9 +123,6 @@ p {
   @media (min-width: 1600px) {
     p {
       letter-spacing: 0.4px; } }
-  @media only screen and (min-width: 980px) {
-    p {
-      font-weight: 300; } }
 
 body {
   background-color: #FFF;
@@ -143,38 +141,51 @@ body {
   background-color: "yellow";
   height: 100%;
   margin: auto;
-  max-width: 740px;
+  max-width: 680px;
   width: 80%; }
   @media only screen and (min-width: 480px) {
     .main-column {
       width: 68%; } }
   @media only screen and (min-width: 600px) {
     .main-column {
-      width: 60%; } }
+      width: 50%; } }
 
 #left-column p {
-  padding-top: 20px; }
+  padding-top: 24px; }
   @media (min-width: 576px) {
     #left-column p {
-      padding-top: calc(1.8867924528vw + 9.1320754717px); } }
+      padding-top: calc(2.8301886792vw + 7.6981132075px); } }
   @media (min-width: 1000px) {
     #left-column p {
-      padding-top: calc(1.3333333333vw + 14.6666666667px); } }
+      padding-top: calc(2vw + 16px); } }
   @media (min-width: 1600px) {
     #left-column p {
-      padding-top: 36px; } }
+      padding-top: 48px; } }
 
 #left-column #my-name {
-  padding-top: 10px; }
+  padding-top: 16px;
+  padding-bottom: 16px; }
   @media (min-width: 576px) {
     #left-column #my-name {
-      padding-top: calc(0.9433962264vw + 4.5660377358px); } }
+      padding-top: calc(0.9433962264vw + 10.5660377358px); } }
   @media (min-width: 1000px) {
     #left-column #my-name {
-      padding-top: calc(0.3333333333vw + 10.6666666667px); } }
+      padding-top: calc(0.6666666667vw + 13.3333333333px); } }
   @media (min-width: 1600px) {
     #left-column #my-name {
-      padding-top: 16px; } }
+      padding-top: 24px; } }
+  @media (min-width: 576px) {
+    #left-column #my-name {
+      padding-bottom: calc(0.9433962264vw + 10.5660377358px); } }
+  @media (min-width: 1000px) {
+    #left-column #my-name {
+      padding-bottom: calc(0.6666666667vw + 13.3333333333px); } }
+  @media (min-width: 1600px) {
+    #left-column #my-name {
+      padding-bottom: 24px; } }
+
+#left-column h1, #left-column h3 {
+  text-align: center; }
 
 #right-column h3 {
   padding-top: 32px; }

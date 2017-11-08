@@ -85,6 +85,7 @@ a:hover {
 
 h1 {
 	font-family: $secondary-font;
+	font-weight: 600;
 
 	$h1-font-size-map: (576px: 28px, 1000px: 40px, 1600px: 56px);
   @include poly-fluid-sizing('font-size', $h1-font-size-map);
@@ -98,19 +99,19 @@ h1 {
 
 h3 {
 	font-family: $secondary-font;
-	font-weight: 600;
+	font-weight: 700;
 	opacity: 0.6;
 	text-transform: uppercase;
 	color: $color-grey;
 
 	$h1-font-size-map: (576px: 14px, 1000px: 16px, 1600px: 18px);
-  @include poly-fluid-sizing('font-size', $h1-font-size-map);
+  	@include poly-fluid-sizing('font-size', $h1-font-size-map);
 
-	$h1-line-height-map: (576px: 20px, 1000px: 23px, 1600px: 26px);
-  @include poly-fluid-sizing('line-height', $h1-line-height-map);
+	$h1-line-height-map: (576px: 20px, 1000px: 23px, 1600px: 28px);
+  	@include poly-fluid-sizing('line-height', $h1-line-height-map);
 
-	$p-letter-spacing-map: (576px: 0.8px, 1000px: 1.0px, 1600px: 1.2px);
-  @include poly-fluid-sizing('letter-spacing', $p-letter-spacing-map);
+	$p-letter-spacing-map: (576px: 0.8px, 1000px: 1.0px, 1600px: 1.6px);
+ 	@include poly-fluid-sizing('letter-spacing', $p-letter-spacing-map);
 
 	// $h1-padding-top-map: (576px: 10px, 1000px: 11px, 1600px: 12px);
   // @include poly-fluid-sizing('padding-top', $h1-padding-top-map);
@@ -124,17 +125,17 @@ h3 {
 p {
 	font-family: $primary-font;
 
-  $p-font-size-map: (576px: 20px, 1000px: 24px, 1600px: 28px);
+  $p-font-size-map: (576px: 20px, 1000px: 24px, 1600px: 24px);
   @include poly-fluid-sizing('font-size', $p-font-size-map);
 
-	$p-line-height-map: (576px: 24px, 1000px: 29px, 1600px: 34px);
+	$p-line-height-map: (576px: 24px, 1000px: 29px, 1600px: 36px);
   @include poly-fluid-sizing('line-height', $p-line-height-map);
 
 	$p-letter-spacing-map: (576px: 0.1px, 1000px: 0.2px, 1600px: 0.4px);
   @include poly-fluid-sizing('letter-spacing', $p-letter-spacing-map);
 
 	@include MQ(L) {
-		font-weight: 300;
+		//font-weight: 300;
 	}
 
   color: $color-black;
@@ -144,7 +145,7 @@ body {
   background-color: #FFF;
 
 	$h1-padding-bottom-map: (576px: 60px, 1000px: 100px, 1600px: 120px);
-  @include poly-fluid-sizing('padding-bottom', $h1-padding-bottom-map);
+    @include poly-fluid-sizing('padding-bottom', $h1-padding-bottom-map);
 }
 
 
@@ -152,7 +153,7 @@ body {
 	background-color: "yellow";
 	height: 100%;
 	margin: auto;
-	max-width: 740px;
+	max-width: 680px;
 
 	width: 80%;
 
@@ -161,7 +162,7 @@ body {
 	}
 
 	@include MQ(M) {
-		width: 60%;
+		width: 50%;
 	}
 
 }
@@ -169,13 +170,18 @@ body {
 #left-column {
 
 	p {
-		$p-margin: (576px: 20px, 1000px: 28px, 1600px: 36px);
-  	@include poly-fluid-sizing('padding-top', $p-margin);
+		$p-margin: (576px: 24px, 1000px: 36px, 1600px: 48px);
+		@include poly-fluid-sizing('padding-top', $p-margin);
 	}
 
 	#my-name {
-		$p-margin: (576px: 10px, 1000px: 14px, 1600px: 16px);
-  	@include poly-fluid-sizing('padding-top', $p-margin);
+		$p-margin: (576px: 16px, 1000px: 20px, 1600px: 24px);
+  		@include poly-fluid-sizing('padding-top', $p-margin);
+		@include poly-fluid-sizing('padding-bottom', $p-margin);
+	}
+	
+	h1, h3 {
+		text-align: center;
 	}
 }
 
