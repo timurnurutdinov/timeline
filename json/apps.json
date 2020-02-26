@@ -1,0 +1,139 @@
+{
+  "afisha" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/afisha.png",
+    "name" : "Афиша"
+  },
+  "autoru" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/autoru.png",
+    "name" : "Автору"
+  },
+  "chief" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/chief.png",
+    "name" : "Шеф"
+  },
+  "disk" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/disk.png",
+    "name" : "Диск"
+  },
+  "drive" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/drive.png",
+    "name" : "Драйв"
+  },
+  "eda" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/eda.png",
+    "name" : "Еда"
+  },
+  "edadeal" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/edadeal.png",
+    "name" : "Едадил"
+  },
+  "local" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/local.png",
+    "name" : "Район"
+  },
+  "efir" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/efir.png",
+    "name" : "Эфир"
+  },
+  "mail" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/mail.png",
+    "name" : "Почта"
+  },
+  "market" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/market.png",
+    "name" : "Маркет"
+  },
+  "mvideo" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/mvideo.png",
+    "name" : "Мвидео"
+  },
+  "news" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/news.png",
+    "name" : "Новости"
+  },
+  "ozon" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/ozon.png",
+    "name" : "Ozon"
+  },
+  "perekrestok" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/perek.png",
+    "name" : "Перекрёсток"
+  },
+  "q" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/q.png",
+    "name" : "Кью"
+  },
+  "sport" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/sport.png",
+    "name" : "Спорт"
+  },
+  "talents" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/talents.png",
+    "name" : "Таланты"
+  },
+  "trains" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/trains.png",
+    "name" : "Поезда"
+  },
+  "wildberries" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/wildberries.png",
+    "name" : "Wildberries"
+  },
+  "yandex feed" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/wildberries.png",
+    "name" : "Яндекс"
+  },
+  "zen" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/zen.png",
+    "name" : "Дзен"
+  },
+
+
+
+  "panel all" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/panel-all.png",
+    "name" : "Все"
+  },
+  "panel plus" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/panel-plus.png",
+    "name" : ""
+  },
+
+
+
+  "traffic average" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/traffic-average.png",
+    "name" : "6 баллов"
+  },
+  "traffic max" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/traffic-max.png",
+    "name" : "9 баллов"
+  },
+  "traffic min" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/traffic-max.png",
+    "name" : "4 балла"
+  },
+
+
+  
+  "weather type 1" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/weather-type-1.png",
+    "name" : "+3°"
+  },
+  "weather type 2" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/weather-type-2.png",
+    "name" : "-2°"
+  },
+  "weather type 3" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/weather-type-3.png",
+    "name" : "0°"
+  },
+  "weather type 4" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/weather-type-4.png",
+    "name" : "+7°"
+  },
+  "weather type 5" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/weather-type-5.png",
+    "name" : "+5°"
+  }
+}
