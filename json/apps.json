@@ -47,6 +47,10 @@
     "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/market.png",
     "name" : "Маркет"
   },
+  "music" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/music.png",
+    "name" : "Музыка"
+  },
   "mvideo" : {
     "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/mvideo.png",
     "name" : "Мвидео"
