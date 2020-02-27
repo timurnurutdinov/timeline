@@ -35,6 +35,10 @@
     "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/efir.png",
     "name" : "Эфир"
   },
+  "images" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/images.png",
+    "name" : "Картинки"
+  },
   "mail" : {
     "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/mail.png",
     "name" : "Почта"
@@ -75,6 +79,14 @@
     "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/trains.png",
     "name" : "Поезда"
   },
+  "video" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/video.png",
+    "name" : "Видео"
+  },
+  "weather" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/weather.png",
+    "name" : "Погода"
+  },
   "wildberries" : {
     "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/wildberries.png",
     "name" : "Wildberries"
@@ -94,8 +106,20 @@
     "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/panel-all.png",
     "name" : "Все"
   },
+  "panel all color" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/panel-all-color.png",
+    "name" : "Все"
+  },
   "panel plus" : {
     "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/panel-plus.png",
+    "name" : ""
+  },
+  "panel empty" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/panel-empty.png",
+    "name" : ""
+  },
+  "panel grey" : {
+    "image" : "https://timurnurutdinov.github.io/timeline/json/images/v2/panel-grey.png",
     "name" : ""
   },
 
