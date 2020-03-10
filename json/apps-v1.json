@@ -1,0 +1,167 @@
+{
+  "afisha" : {
+    "image": "afisha.png",
+    "name" : "Афиша"
+  },
+  "autoru" : {
+    "image" : "autoru.png",
+    "name" : "Автору"
+  },
+  "chief" : {
+    "image" : "chief.png",
+    "name" : "Шеф"
+  },
+  "disk" : {
+    "image" : "disk.png",
+    "name" : "Диск"
+  },
+  "drive" : {
+    "image" : "drive.png",
+    "name" : "Драйв"
+  },
+  "eda" : {
+    "image" : "eda.png",
+    "name" : "Еда"
+  },
+  "edadeal" : {
+    "image" : "edadeal.png",
+    "name" : "Едадил"
+  },
+  "local" : {
+    "image" : "local.png",
+    "name" : "Район"
+  },
+  "efir" : {
+    "image" : "efir.png",
+    "name" : "Эфир"
+  },
+  "images" : {
+    "image" : "images.png",
+    "name" : "Картинки"
+  },
+  "mail" : {
+    "image" : "mail.png",
+    "name" : "Почта"
+  },
+  "market" : {
+    "image" : "market.png",
+    "name" : "Маркет"
+  },
+  "music" : {
+    "image" : "music.png",
+    "name" : "Музыка"
+  },
+  "mvideo" : {
+    "image" : "mvideo.png",
+    "name" : "Мвидео"
+  },
+  "news" : {
+    "image" : "news.png",
+    "name" : "Новости"
+  },
+  "ozon" : {
+    "image" : "ozon.png",
+    "name" : "Ozon"
+  },
+  "perekrestok" : {
+    "image" : "perekrestok.png",
+    "name" : "Перекрёсток"
+  },
+  "q" : {
+    "image" : "q.png",
+    "name" : "Кью"
+  },
+  "sport" : {
+    "image" : "sport.png",
+    "name" : "Спорт"
+  },
+  "talents" : {
+    "image" : "talents.png",
+    "name" : "Таланты"
+  },
+  "trains" : {
+    "image" : "trains.png",
+    "name" : "Поезда"
+  },
+  "video" : {
+    "image" : "video.png",
+    "name" : "Видео"
+  },
+  "weather" : {
+    "image" : "weather.png",
+    "name" : "Погода"
+  },
+  "wildberries" : {
+    "image" : "wildberries.png",
+    "name" : "Wildberries"
+  },
+  "yandex feed" : {
+    "image" : "yandex-feed.png",
+    "name" : "Яндекс"
+  },
+  "zen" : {
+    "image" : "zen.png",
+    "name" : "Дзен"
+  },
+
+
+
+  "panel all" : {
+    "image" : "panel-all.png",
+    "name" : "Все"
+  },
+  "panel all color" : {
+    "image" : "panel-all-color.png",
+    "name" : "Все"
+  },
+  "panel plus" : {
+    "image" : "panel-plus.png",
+    "name" : ""
+  },
+  "panel empty" : {
+    "image" : "panel-empty.png",
+    "name" : ""
+  },
+  "panel grey" : {
+    "image" : "panel-grey.png",
+    "name" : ""
+  },
+
+
+
+  "traffic average" : {
+    "image" : "traffic-average.png",
+    "name" : "6 баллов"
+  },
+  "traffic max" : {
+    "image" : "traffic-max.png",
+    "name" : "9 баллов"
+  },
+  "traffic min" : {
+    "image" : "traffic-max.png",
+    "name" : "4 балла"
+  },
+
+
+  
+  "weather type 1" : {
+    "image" : "weather-type-1.png",
+    "name" : "+3°"
+  },
+  "weather type 2" : {
+    "image" : "weather-type-2.png",
+    "name" : "-2°"
+  },
+  "weather type 3" : {
+    "image" : "weather-type-3.png",
+    "name" : "0°"
+  },
+  "weather type 4" : {
+    "image" : "weather-type-4.png",
+    "name" : "+7°"
+  },
+  "weather type 5" : {
+    "image" : "weather-type-5.png",
+    "name" : "+5°"
+  }
+}
