@@ -11,6 +11,10 @@
     "image" : "chief.png",
     "name" : "Шеф"
   },
+  "direct" : {
+    "image" : "direct.png",
+    "name" : "Директ"
+  },
   "disk" : {
     "image" : "disk.png",
     "name" : "Диск"
@@ -34,6 +38,10 @@
   "efir" : {
     "image" : "efir.png",
     "name" : "Эфир"
+  },
+  "games" : {
+    "image" : "games.png",
+    "name" : "Игры"
   },
   "images" : {
     "image" : "images.png",

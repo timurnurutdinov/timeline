@@ -1,0 +1,4 @@
+{
+  "apps only": ["afisha", "autoru", "chief", "direct", "disk", "drive", "eda", "edadeal", "local", "efir", "games", "images", "mail", "market", "music", "mvideo", "news", "ozon", "perekrestok", "q", "sport", "talents", "trains", "video", "weather", "wildberries", "zen"],
+  "panel start v1": ["mail", "zen", "news", "music", "images", "video", "market", "local", "games", "direct", "sport", "autoru"]
+}
