@@ -7,6 +7,10 @@
     "image" : "autoru.png",
     "name" : "Автору"
   },
+  "beru" : {
+    "image" : "beru.png",
+    "name" : "Беру"
+  },
   "chief" : {
     "image" : "chief.png",
     "name" : "Шеф"
