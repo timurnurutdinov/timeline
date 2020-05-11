@@ -167,6 +167,17 @@ blur.style =
 # Add Layer to plugin logic
 sceneLayers.push(blur)
 
+# Presenter
+
+figmaView.clip = true
+figmaView.borderRadius = 6
+
+Framer.Extras.Hints.disable()
+Canvas.backgroundColor = "#222"
+
+if Canvas.width > 440
+	figmaView.scale = (Canvas.height - 200) / 640
+	figmaView.center()
 
 card.clip = true
 
