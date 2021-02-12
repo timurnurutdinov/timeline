@@ -1,4 +1,4 @@
-@import 'bourbon';
+// @import 'bourbon';
 @import '../partials/variables';
 @import '../partials/mixins';
 @import '../partials/layout';
@@ -23,6 +23,10 @@ a {
 	letter-spacing: 0px;
 	font-weight: 600;
 	// text-decoration: none;
+
+	h3 {
+		text-decoration: none !important;
+	}
 }
 
 a:hover {
@@ -103,6 +107,7 @@ h3 {
 	opacity: 0.6;
 	text-transform: uppercase;
 	color: $color-grey;
+	text-decoration: none;
 
 	$h1-font-size-map: (576px: 14px, 1000px: 16px, 1600px: 18px);
   	@include poly-fluid-sizing('font-size', $h1-font-size-map);
