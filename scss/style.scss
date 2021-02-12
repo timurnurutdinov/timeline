@@ -22,10 +22,10 @@ a {
 	color: $color-black;
 	letter-spacing: 0px;
 	font-weight: 600;
-	// text-decoration: none;
+	text-decoration: none;
 
 	h3 {
-		text-decoration: none !important;
+		text-decoration: none;
 	}
 }
 
@@ -41,15 +41,7 @@ a:hover {
 h1 {
 	font-family: $secondary-font;
 	font-weight: 600;
-
-	$h1-font-size-map: (576px: 28px, 1000px: 40px, 1600px: 56px);
-  @include poly-fluid-sizing('font-size', $h1-font-size-map);
-
-	$h1-line-height-map: (576px: 36px, 1000px: 56px, 1600px: 68px);
-  @include poly-fluid-sizing('line-height', $h1-line-height-map);
-
-	$h1-padding-top-map: (576px: 48px, 1000px: 80px, 1600px: 100px);
-  @include poly-fluid-sizing('padding-top', $h1-padding-top-map);
+	font-size: 56px;
 }
 
 h3 {
@@ -59,57 +51,36 @@ h3 {
 	text-transform: uppercase;
 	color: $color-grey;
 	text-decoration: none;
-
-	$h1-font-size-map: (576px: 14px, 1000px: 16px, 1600px: 18px);
-  	@include poly-fluid-sizing('font-size', $h1-font-size-map);
-
-	$h1-line-height-map: (576px: 20px, 1000px: 23px, 1600px: 28px);
-  	@include poly-fluid-sizing('line-height', $h1-line-height-map);
-
-	$p-letter-spacing-map: (576px: 0.8px, 1000px: 1.0px, 1600px: 1.6px);
- 	@include poly-fluid-sizing('letter-spacing', $p-letter-spacing-map);
-
-	// $h1-padding-top-map: (576px: 10px, 1000px: 11px, 1600px: 12px);
-  // @include poly-fluid-sizing('padding-top', $h1-padding-top-map);
-	//
-	// $h1-padding-bottom-map: (576px: 16px, 1000px: 20px, 1600px: 24px);
-  // @include poly-fluid-sizing('padding-bottom', $h1-padding-bottom-map);
+	font-size: 16px;
+	line-height: 23px;
+	letter-spacing: 1px;
 }
-
 
 
 p {
 	font-family: $primary-font;
-
-  $p-font-size-map: (576px: 20px, 1000px: 24px, 1600px: 24px);
-  @include poly-fluid-sizing('font-size', $p-font-size-map);
-
-	$p-line-height-map: (576px: 24px, 1000px: 29px, 1600px: 36px);
-  @include poly-fluid-sizing('line-height', $p-line-height-map);
-
-	$p-letter-spacing-map: (576px: 0.1px, 1000px: 0.2px, 1600px: 0.4px);
-  @include poly-fluid-sizing('letter-spacing', $p-letter-spacing-map);
-
-	@include MQ(L) {
-		//font-weight: 300;
-	}
-
-  color: $color-black;
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: 0.2px;
+	color: $color-black;
 }
 
 body {
   background-color: #FFF;
-
-	$h1-padding-bottom-map: (576px: 60px, 1000px: 100px, 1600px: 120px);
-    @include poly-fluid-sizing('padding-bottom', $h1-padding-bottom-map);
 }
 
 
-.main-column {
-	background-color: "yellow";
+
+
+
+
+.column {
+
 	height: 100%;
 	margin: auto;
 	max-width: 680px;
+	padding-top: 60px;
+	padding-bottom: 100px;
 
 	width: 80%;
 
@@ -121,20 +92,14 @@ body {
 		width: 50%;
 	}
 
-}
-
-#left-column {
-
-	p {
-		padding-top: 26px;
-		// $p-margin: (576px: 24px, 1000px: 36px, 1600px: 48px);
-		// @include poly-fluid-sizing('padding-top', $p-margin);
+	.paragraph {
+		padding-top: 12px;
 	}
 
 	#my-name {
+		padding-top: 20px;
+		padding-bottom: 44px;
 		$p-margin: (576px: 16px, 1000px: 20px, 1600px: 24px);
-  		@include poly-fluid-sizing('padding-top', $p-margin);
-		@include poly-fluid-sizing('padding-bottom', $p-margin);
 	}
 	
 	h1, h3 {
@@ -142,26 +107,42 @@ body {
 	}
 }
 
-#right-column {
+.work-experience {
+
+	padding-top: 32px;
+	padding-bottom: 30px;
+	margin: 0;
+
+	h3 {
+		text-align: left;
+	}
+
+	h5 {
+		font-size: 14px;
+		color: $color-grey;
+		opacity: 0.6;
+	}
+
+	p {
+		padding-top: 6px;
+		color: $color-black;
+	}
+
+}
+
+#contact-information {
+
 	h3 {
 		$h1-padding-bottom-map: (576px: 32px, 1000px: 48px, 1600px: 64px);
 	  	@include poly-fluid-sizing('padding-top', $h1-padding-bottom-map);
+		text-align: left;
 	}
 
 	p {
 		$p-margin: (576px: 2px, 1000px: 3px, 1600px: 4px);
 		@include poly-fluid-sizing('padding-top', $p-margin);
 	}
-
-	#work-experience {
-		p {
-			color: $color-black;
-			$p-margin: (576px: 12px, 1000px: 16px, 1600px: 24px);
-	  	@include poly-fluid-sizing('padding-bottom', $p-margin);
-		}
-
-		strong {
-			color: $color-grey;
-		}
-	}
 }
+
+	
+
