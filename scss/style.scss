@@ -35,55 +35,6 @@ a:hover {
 }
 
 
-//
-// #left-column {
-// 	float: left;
-// 	background-color: $color-grey;
-//
-// 	@include MQ(M) {
-//
-// 	}
-//
-// 	@include MQ(L) {
-// 		width: 36%;
-// 		height: 100vh;
-//
-//
-//
-// 		p {
-// 			$map: (800px: 32px, 1000px: 200px);
-// 		  @include poly-fluid-sizing('font-size', $map);
-// 		}
-// 	}
-//
-//
-// 	#left-column-wrapper {
-// 		// margin-left: 10%;
-// 		// margin-right: 10%;
-// 		width: 80%;
-// 		margin: auto;
-// 		height: 20px;
-// 		background-color: $color-event-managing;
-//
-// 	}
-//
-// }
-//
-//
-//
-// #right-column {
-// 	float: left;
-// 	background-color: $color-grey-light;
-//
-// 	@include MQ(M) {
-//
-// 	}
-//
-// 	@include MQ(L) {
-// 		width: 64%;
-// 		height: 100vh;
-// 	}
-// }
 
 
 
@@ -175,8 +126,9 @@ body {
 #left-column {
 
 	p {
-		$p-margin: (576px: 24px, 1000px: 36px, 1600px: 48px);
-		@include poly-fluid-sizing('padding-top', $p-margin);
+		padding-top: 26px;
+		// $p-margin: (576px: 24px, 1000px: 36px, 1600px: 48px);
+		// @include poly-fluid-sizing('padding-top', $p-margin);
 	}
 
 	#my-name {
@@ -193,11 +145,11 @@ body {
 #right-column {
 	h3 {
 		$h1-padding-bottom-map: (576px: 32px, 1000px: 48px, 1600px: 64px);
-	  @include poly-fluid-sizing('padding-top', $h1-padding-bottom-map);
+	  	@include poly-fluid-sizing('padding-top', $h1-padding-bottom-map);
 	}
 
 	p {
-		$p-margin: (576px: 4px, 1000px: 8px, 1600px: 12px);
+		$p-margin: (576px: 2px, 1000px: 3px, 1600px: 4px);
 		@include poly-fluid-sizing('padding-top', $p-margin);
 	}
 

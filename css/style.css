@@ -227,22 +227,7 @@ body {
 }
 
 #left-column p {
-  padding-top: 24px;
-}
-@media (min-width: 576px) {
-  #left-column p {
-    padding-top: calc(2.8301886792vw + 7.6981132075px);
-  }
-}
-@media (min-width: 1000px) {
-  #left-column p {
-    padding-top: calc(2vw + 16px);
-  }
-}
-@media (min-width: 1600px) {
-  #left-column p {
-    padding-top: 48px;
-  }
+  padding-top: 26px;
 }
 #left-column #my-name {
   padding-top: 16px;
@@ -301,21 +286,21 @@ body {
   }
 }
 #right-column p {
-  padding-top: 4px;
+  padding-top: 2px;
 }
 @media (min-width: 576px) {
   #right-column p {
-    padding-top: calc(0.9433962264vw - 1.4339622642px);
+    padding-top: calc(0.2358490566vw + 0.641509434px);
   }
 }
 @media (min-width: 1000px) {
   #right-column p {
-    padding-top: calc(0.6666666667vw + 1.3333333333px);
+    padding-top: calc(0.1666666667vw + 1.3333333333px);
   }
 }
 @media (min-width: 1600px) {
   #right-column p {
-    padding-top: 12px;
+    padding-top: 4px;
   }
 }
 #right-column #work-experience p {
