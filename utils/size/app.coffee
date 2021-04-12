@@ -1,6 +1,9 @@
 Canvas.backgroundColor = "222"
 v = 60
 
+niceValue = (number) ->
+	return "#{number.toFixed()} dp"
+
 # Colors
 
 shuffle = (source) ->
@@ -64,6 +67,7 @@ gradientView.on Events.StateSwitchEnd, (from, to) ->
 
 gradientView.stateSwitch(gradientView.stateNames[gradientView.stateNames.length - 1])
 
+# View
 measureView = (measure, value) ->
 	view = new Layer
 		backgroundColor: "null"
@@ -86,7 +90,7 @@ measureView = (measure, value) ->
 		parent: view
 		y: 24
 		width: Screen.width
-		text: "#{value} dp"
+		text: niceValue(value)
 		fontFamily: Utils.loadWebFont "Rubik"
 		fontSize: 54
 		textAlign: "left"
@@ -104,7 +108,15 @@ measureView = (measure, value) ->
 
 
 
-measureView("width", Screen.width).y = Align.center(-v)
-measureView("height", Screen.height).y = Align.center(v)
+widthView = measureView("width", Screen.width)
+heightView = measureView("height", Screen.height)
 
+widthView.y = Align.center(-v)
+heightView.y = Align.center(v)
 
+Screen.onResize ->
+	widthView.children[1].text = niceValue(Screen.width)
+	heightView.children[1].text = niceValue(Screen.height)
+	
+	gradientView.width = Screen.width
+	gradientView.height = Screen.height
